@@ -1,0 +1,8 @@
+project_name,total,lost_coverage_lines,improve_coverage_lines
+commons-io,0.5,0.5,0.0
+aismessages,0.0,0.0,0.0
+elastic-job-lite,4266.0,4266.0,0.0
+dropwizard,1736.0,1736.0,0.0
+marine-api,0.0,0.0,0.0
+média,1200.5,1200.5,0.0
+sum,6002.5,6002.5,0.0

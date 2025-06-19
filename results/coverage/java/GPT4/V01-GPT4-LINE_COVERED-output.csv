@@ -1,0 +1,12 @@
+project_name,total,lost_coverage_lines,improve_coverage_lines
+unix4j,355.1428571428572,357.42857142857144,-2.2857142857142856
+jfreechart,-5.5,1.5,-7.0
+search-highlighter,-1.0,1.0,-2.0
+pippo,3.0,3.0,0.0
+junit-quickcheck,-577.6,27.2,-604.8
+aismessages,19.5,19.5,0.0
+rxjava2-extras,27.4,72.6,-45.2
+wikidata-toolkit,0.25,0.25,0.0
+marine-api,0.75,0.75,0.0
+média,-19.78412698412698,53.6920634920635,-73.47619047619048
+sum,-178.05714285714282,483.22857142857146,-661.2857142857143

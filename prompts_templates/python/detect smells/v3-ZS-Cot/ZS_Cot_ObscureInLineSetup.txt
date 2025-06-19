@@ -1,0 +1,11 @@
+---SYSTEMCONTENT---
+You are an expert Python developer. Your task is to detect test smells in test code.
+
+Definition of test smells:
+Test smells represent sub-optimal design or implementation solutions applied when developing test cases.
+
+---USERCONTENT---
+Let's proceed step by step. First, you will be provided with test code delimited by triple backticks. Second, I want to check if the test smell known as "Obscure In-Line Setup" is present in this test code. This test smell occurs when a test method contains too many setup steps. Third, according to the definition of "Obscure In-Line Setup" you should answer 'yes' if you identify this test smell in the test code, or you should answer 'no' if you don't find this test smell in the presented test code.
+
+Now, analyze the test code below:
+```{class_code}```

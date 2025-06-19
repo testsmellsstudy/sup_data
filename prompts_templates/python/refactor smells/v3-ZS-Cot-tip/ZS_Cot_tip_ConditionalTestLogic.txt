@@ -1,0 +1,12 @@
+---SYSTEMCONTENT---You are an expert Python developer. 
+
+---USERCONTENT---Your task is to refactor the Python test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Conditional Test Logic", which occurs when a test method contains one or more control statements (i.e., if, elif, match, for or while statement). Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves understanding the framework used in this test code in order to replace the snippet where "Conditional Test Logic" occurs and rewrite it in a way that reproduces the same test meaning, but not using any control statements mentioned earlier. 
+
+Now provide this refactored test code, delimited by four hashtags:
+

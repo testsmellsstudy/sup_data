@@ -1,0 +1,20 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,AssetServlet,24,397,7,43,10,89,10,28,3,10
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,ResourceNotFoundException,0,4,0,0,0,2,0,1,0,1
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,ResourceURL,57,126,4,10,8,32,4,7,0,3
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,ByteRange,53,127,10,10,7,25,7,11,2,6
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,AssetServlet.CachedAsset,0,45,0,0,0,12,0,6,0,6
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.MeteredTask,10,12,0,0,3,4,1,1,1,1
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,GarbageCollectionTask,4,50,1,5,2,16,2,5,1,3
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,LogConfigurationTask,4,145,1,11,2,26,2,11,1,6
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,LogConfigurationTask.new TimerTask() {...},0,14,0,0,0,3,0,2,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet,8,309,3,17,3,68,3,16,0,9
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,PostBodyTask,0,9,0,0,0,3,0,2,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.TaskExecutor,0,26,0,2,0,9,0,3,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.ExceptionMeteredTask,42,15,10,0,9,5,7,1,2,1
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,Task,0,9,0,0,0,4,0,2,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.TimedTask,14,12,0,0,4,4,1,1,1,1
+Dropwizard Servlet Support,io.dropwizard.servlets,CacheBustingFilter,2,18,0,2,2,6,2,3,2,2
+Dropwizard Servlet Support,io.dropwizard.servlets,ThreadNameFilter,0,43,0,0,0,11,0,5,0,5
+Dropwizard Servlet Support,io.dropwizard.servlets,SlowRequestFilter,5,76,0,2,2,21,1,7,1,6
+Dropwizard Servlet Support,io.dropwizard.servlets,Servlets,0,19,0,2,0,3,0,2,0,1

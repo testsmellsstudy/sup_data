@@ -1,0 +1,10 @@
+python3 -m venv venv
+source venv/bin/activate
+sudo apt-get install build-essential
+pip install perceval
+poetry install
+pip install .
+pip install grimoirelab_toolkit base httpretty feedparser beautifulsoup4
+pip install -r requirements_dev.txt
+pip install pytest pytest-reportlog pytest-cov
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log grimoirelab-perceval.log

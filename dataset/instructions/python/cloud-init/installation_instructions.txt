@@ -1,0 +1,9 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+pip install -r integration-requirements.txt
+pip install -r test-requirements.txt
+pip install -r doc-requirements.txt
+python setup.py install
+pip install pytest pytest-reportlog pytest-cov responses
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log cloud-init.log

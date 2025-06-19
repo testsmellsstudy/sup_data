@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockStringContentFactory,22,154,1,8,4,38,2,11,1,7
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockWebResourceFetcher,0,80,0,4,0,23,0,10,0,8
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockDirectoryManager,26,341,0,32,5,81,3,34,3,18
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockOutputStream,0,16,0,0,0,6,0,2,0,2

@@ -1,0 +1,14 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Sleepy Test Smell":
+Occurs when an artificial delay is introduced by the developer for a certain duration (i.e., simulate an external event) and then continue with the execution.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+
+
+

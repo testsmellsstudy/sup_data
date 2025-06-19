@@ -1,0 +1,49 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Conditional Test Logic", which occurs when a test method contains one or more control statements (i.e., if, switch, conditional expression, foreach, and while statements). Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves understanding the framework used in this test code in order to replace the snippet where "Conditional Test Logic" occurs and rewrite it in a way that reproduces the same test meaning, but not using any control statements mentioned earlier. 
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+public class ExampleTest {
+
+    @Test
+    public void testExample() {
+        int value = 10;
+        if (value > 5) {
+            assertEquals(10, value);
+        } else {
+            assertEquals(5, value);
+        }
+    }
+}
+```
+<Refactored test code>
+```
+import static org.junit.Assume.assumeTrue;
+public class ExampleTest {
+
+    @Test
+    public void testExample() {
+        int value = 10;
+	condition = (value > 5);
+        assumeTrue("Verifying if value is higher than 5", condition);
+        assertEquals(5, value);
+    }
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```
+
+
+
+

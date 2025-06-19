@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+redpipe-router,net.redpipe.router,MethodFinder,69,0,0,0,17,0,5,0,5,0
+redpipe-router,net.redpipe.router,MethodFinder.UnableToGuessMethodException,3,0,0,0,1,0,1,0,1,0
+redpipe-router,net.redpipe.router,Router,72,0,2,0,18,0,14,0,13,0

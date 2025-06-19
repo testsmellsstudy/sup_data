@@ -1,0 +1,11 @@
+---SYSTEMCONTENT---You are an expert Python developer. 
+
+---USERCONTENT---Your task is to refactor the Python test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Sleepy Test", which occurs when an artificial delay is introduced by the developer for a certain duration (i.e., simulate an external event) and then continue with the execution. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves understanding why that delay is being used and refactoring the code to replace the delay with a simulated behavior expected from the system.
+
+Now provide this refactored test code, delimited by four hashtags:

@@ -1,0 +1,258 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,AssetServlet,24,397,7,43,10,89,10,28,3,10
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,ResourceNotFoundException,0,4,0,0,0,2,0,1,0,1
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,ResourceURL,57,126,4,10,8,32,4,7,0,3
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,ByteRange,53,127,10,10,7,25,7,11,2,6
+Dropwizard Servlet Support,io.dropwizard.servlets.assets,AssetServlet.CachedAsset,0,45,0,0,0,12,0,6,0,6
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.MeteredTask,10,12,0,0,3,4,1,1,1,1
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,GarbageCollectionTask,4,50,1,5,2,16,2,5,1,3
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,LogConfigurationTask,4,145,1,11,2,26,2,11,1,6
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,LogConfigurationTask.new TimerTask() {...},0,14,0,0,0,3,0,2,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet,8,309,3,17,3,68,3,16,0,9
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,PostBodyTask,0,9,0,0,0,3,0,2,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.TaskExecutor,0,26,0,2,0,9,0,3,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.ExceptionMeteredTask,42,15,10,0,9,5,7,1,2,1
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,Task,0,9,0,0,0,4,0,2,0,2
+Dropwizard Servlet Support,io.dropwizard.servlets.tasks,TaskServlet.TimedTask,14,12,0,0,4,4,1,1,1,1
+Dropwizard Servlet Support,io.dropwizard.servlets,CacheBustingFilter,2,18,0,2,2,6,2,3,2,2
+Dropwizard Servlet Support,io.dropwizard.servlets,ThreadNameFilter,0,43,0,0,0,11,0,5,0,5
+Dropwizard Servlet Support,io.dropwizard.servlets,SlowRequestFilter,5,76,0,2,2,21,1,7,1,6
+Dropwizard Servlet Support,io.dropwizard.servlets,Servlets,0,19,0,2,0,3,0,2,0,1
+Dropwizard Jetty Support,io.dropwizard.jetty.setup,ServletEnvironment,7,210,3,5,1,50,3,19,0,18
+Dropwizard Jetty Support,io.dropwizard.jetty,HttpsConnectorFactory,101,611,5,55,30,167,7,89,3,63
+Dropwizard Jetty Support,io.dropwizard.jetty,BiDiGzipHandler.WrappedServletInputStream,57,17,4,0,17,5,12,3,10,3
+Dropwizard Jetty Support,io.dropwizard.jetty,MutableServletContextHandler,0,53,0,8,0,11,0,9,0,5
+Dropwizard Jetty Support,io.dropwizard.jetty,Jetty93InstrumentedConnectionFactory.new Connection.Listener() {...},20,0,0,0,5,0,3,0,3,0
+Dropwizard Jetty Support,io.dropwizard.jetty,BiDiGzipHandler.RemoveHttpHeadersWrapper,33,18,6,2,9,6,6,3,3,2
+Dropwizard Jetty Support,io.dropwizard.jetty,ContextRoutingHandler,22,96,1,9,2,21,4,8,3,4
+Dropwizard Jetty Support,io.dropwizard.jetty,RoutingHandler,3,82,2,4,1,14,2,3,0,2
+Dropwizard Jetty Support,io.dropwizard.jetty,Jetty93InstrumentedConnectionFactory,14,27,0,0,3,9,1,5,1,5
+Dropwizard Jetty Support,io.dropwizard.jetty,BiDiGzipHandler,12,149,1,5,5,30,1,12,0,10
+Dropwizard Jetty Support,io.dropwizard.jetty,ZipExceptionHandlingInputStream,0,132,0,4,0,36,0,14,0,12
+Dropwizard Jetty Support,io.dropwizard.jetty,GzipHandlerFactory,29,183,0,10,11,54,9,22,9,17
+Dropwizard Jetty Support,io.dropwizard.jetty,RoutingHandler.Entry,0,9,0,0,0,4,0,1,0,1
+Dropwizard Jetty Support,io.dropwizard.jetty,NetUtil,26,103,10,8,5,26,8,12,2,9
+Dropwizard Jetty Support,io.dropwizard.jetty,BiDiGzipHandler.new InflaterInputStream() {...},7,12,0,0,3,1,1,1,1,1
+Dropwizard Jetty Support,io.dropwizard.jetty,ServerPushFilterFactory,0,109,0,6,0,35,0,15,0,12
+Dropwizard Jetty Support,io.dropwizard.jetty,NonblockingServletHolder,4,36,0,2,1,12,1,5,1,4
+Dropwizard Jetty Support,io.dropwizard.jetty,HttpConnectorFactory,18,431,1,3,6,138,3,52,2,51
+Dropwizard Jetty Support,io.dropwizard.jetty,BiDiGzipHandler.WrappedServletRequest,5,41,2,2,2,10,3,5,1,5
+Dropwizard Jetty Support,io.dropwizard.jetty,SslReload,14,9,0,0,5,4,3,1,3,1
+Dropwizard Jetty Support,io.dropwizard.jetty,HttpsConnectorFactory.new AbstractLifeCycle.AbstractLifeCycleListener() {...},6,9,0,0,2,1,1,1,1,1
+Dropwizard Logging Support,io.dropwizard.logging.layout,DropwizardLayoutFactory,0,9,0,0,0,2,0,2,0,2
+Dropwizard Logging Support,ch.qos.logback.core.recovery,ResilentSocketOutputStream,0,88,0,0,0,17,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging,DefaultLoggingFactory,62,431,6,22,12,112,6,27,0,19
+Dropwizard Logging Support,io.dropwizard.logging,SyslogAppenderFactory.Facility,0,244,0,0,0,25,0,1,0,1
+Dropwizard Logging Support,io.dropwizard.logging,SyslogAppenderFactory,30,131,4,4,9,36,12,6,8,6
+Dropwizard Logging Support,io.dropwizard.logging,LoggingUtil,23,34,3,3,7,15,2,4,0,3
+Dropwizard Logging Support,io.dropwizard.logging,TlsSocketAppenderFactory.new SocketFactory() {...},17,13,0,0,5,2,5,2,5,2
+Dropwizard Logging Support,io.dropwizard.logging,PrefixedThrowableProxyConverter,0,16,0,0,0,3,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging,FileAppenderFactory,9,326,1,41,3,84,4,41,3,21
+Dropwizard Logging Support,io.dropwizard.logging,LoggerConfiguration,0,36,0,0,0,14,0,7,0,7
+Dropwizard Logging Support,io.dropwizard.logging,BootstrapLogging,0,75,0,2,0,28,0,5,0,4
+Dropwizard Logging Support,io.dropwizard.logging,AbstractOutputStreamAppenderFactory,0,43,0,0,0,9,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging,UdpSocketAppenderFactory,6,33,0,0,2,11,2,4,2,4
+Dropwizard Logging Support,io.dropwizard.logging,PrefixedRootCauseFirstThrowableProxyConverter,0,32,0,0,0,4,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging,ConsoleAppenderFactory.ConsoleStream,0,37,0,0,0,7,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging,PrefixedExtendedThrowableProxyConverter,0,9,1,1,0,4,1,2,0,2
+Dropwizard Logging Support,io.dropwizard.logging,ConsoleAppenderFactory,7,23,0,0,3,7,2,2,2,2
+Dropwizard Logging Support,io.dropwizard.logging,ThrottlingAppenderWrapper,82,30,0,2,29,10,17,5,17,4
+Dropwizard Logging Support,io.dropwizard.logging,ExternalLoggingFactory,3,3,0,0,3,1,3,1,3,1
+Dropwizard Logging Support,io.dropwizard.logging,DropwizardLayout,0,43,0,0,0,8,0,1,0,1
+Dropwizard Logging Support,io.dropwizard.logging,TcpSocketAppenderFactory,0,87,0,0,0,30,0,13,0,13
+Dropwizard Logging Support,io.dropwizard.logging,AbstractAppenderFactory,43,158,3,7,15,49,12,17,10,14
+Dropwizard Logging Support,io.dropwizard.logging,TlsSocketAppenderFactory,59,189,11,11,11,71,11,33,0,33
+Dropwizard Logging Support,io.dropwizard.logging.async,AsyncLoggingEventAppenderFactory,0,7,0,0,0,2,0,2,0,2
+Dropwizard Logging Support,io.dropwizard.logging.filter,NullLevelFilterFactory.new Filter() {...},2,6,0,0,1,1,1,1,1,1
+Dropwizard Logging Support,io.dropwizard.logging.filter,NullLevelFilterFactory,0,8,0,0,0,2,0,2,0,2
+Dropwizard Logging Support,io.dropwizard.logging.filter,ThresholdLevelFilterFactory,0,15,0,0,0,5,0,2,0,2
+Dropwizard Logging Support,io.dropwizard.logging.socket,DropwizardSocketAppender,0,45,0,0,0,13,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging.socket,DropwizardUdpSocketAppender,7,33,0,0,2,10,0,3,0,3
+Dropwizard Logging Support,io.dropwizard.logging.socket,DropwizardUdpSocketAppender.new OutputStream() {...},5,34,0,0,1,5,1,3,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.jackson,JacksonFeature,26,0,0,0,5,0,2,0,2,0
+Dropwizard Jersey Support,io.dropwizard.jersey.jackson,JsonProcessingExceptionMapper,5,49,2,4,1,15,3,4,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.jackson,JacksonMessageBodyProvider,3,53,2,10,1,8,3,8,1,4
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,LocalDateParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,YearMonthParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,LocalDateTimeParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,ZonedDateTimeParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,YearParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,ZoneIdParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,OffsetDateTimeParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,InstantSecondParam,0,8,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,InstantParam,0,8,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.jsr310,LocalTimeParam,0,7,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.setup,JerseyContainerHolder,13,0,0,0,6,0,3,0,3,0
+Dropwizard Jersey Support,io.dropwizard.jersey.setup,JerseyServletContainer,7,0,0,0,4,0,2,0,2,0
+Dropwizard Jersey Support,io.dropwizard.jersey.setup,JerseyEnvironment,73,50,0,6,18,12,10,6,10,3
+Dropwizard Jersey Support,io.dropwizard.jersey.guava,OptionalParamBinder,0,12,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.guava,OptionalParamConverterProvider.new ParamConverter() {...},3,15,0,0,1,2,1,2,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.guava,OptionalMessageBodyWriter,2,47,0,2,1,9,1,4,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.guava,OptionalParamConverterProvider.new ParamConverter() {...},3,27,0,2,1,3,1,3,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.guava,OptionalParamConverterProvider,2,67,4,8,1,13,4,4,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.params,SizeParam,5,11,0,0,2,4,1,3,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,AbstractParamConverterProvider,3,37,0,2,2,8,0,3,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.params,UUIDParam,5,20,1,3,2,6,2,4,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,LongParam,0,14,0,0,0,6,0,4,0,4
+Dropwizard Jersey Support,io.dropwizard.jersey.params,BooleanParam,5,22,0,4,2,8,1,5,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,LocalDateParam,5,9,0,0,2,3,1,2,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.params,InstantParam,5,9,0,0,2,4,1,3,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,NonEmptyStringParam,0,13,0,0,0,5,0,3,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,DurationParam,5,11,0,0,2,4,1,3,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,DateTimeParam,5,10,0,0,2,3,1,2,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.params,AbstractParam,46,75,7,1,9,21,8,7,4,7
+Dropwizard Jersey Support,io.dropwizard.jersey.params,AbstractParamConverterProvider.new ParamConverter() {...},32,43,4,4,10,5,3,5,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.params,IntParam,0,14,0,0,0,6,0,4,0,4
+Dropwizard Jersey Support,io.dropwizard.jersey,DropwizardResourceConfig.EndpointLogLine,0,40,0,2,0,7,0,3,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey,DropwizardResourceConfig.SpecificBinder,0,18,0,0,0,6,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey,DropwizardResourceConfig.ComponentLoggingListener,0,366,2,27,0,72,2,21,0,8
+Dropwizard Jersey Support,io.dropwizard.jersey,DropwizardResourceConfig,6,252,1,9,2,56,1,17,0,13
+Dropwizard Jersey Support,io.dropwizard.jersey,DropwizardResourceConfig.EndpointComparator,0,16,0,0,0,3,0,3,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.sessions,Flash,0,27,0,2,0,9,0,4,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.sessions,SessionFactoryProvider,2,59,1,5,1,11,1,6,0,4
+Dropwizard Jersey Support,io.dropwizard.jersey.sessions,FlashFactory,5,24,3,3,2,7,3,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.sessions,HttpSessionFactory,3,17,2,2,1,5,2,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.sessions,SessionFactoryProvider.Binder,0,13,0,0,0,3,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.gzip,GZipDecoder,39,0,8,0,8,0,6,0,2,0
+Dropwizard Jersey Support,io.dropwizard.jersey.gzip,ConfiguredGZipEncoder,0,52,3,9,0,13,3,6,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.errors,LoggingExceptionMapper,4,106,1,5,1,27,1,9,0,7
+Dropwizard Jersey Support,io.dropwizard.jersey.errors,IllegalStateExceptionMapper,0,46,0,2,0,13,0,4,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.errors,ErrorEntityWriter,2,53,0,0,1,9,1,3,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.errors,ErrorMessage,47,69,6,6,4,18,8,7,2,7
+Dropwizard Jersey Support,io.dropwizard.jersey.errors,EarlyEofExceptionMapper,0,15,0,0,0,4,0,3,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.filter,AllowedMethodsFilter,0,88,0,2,0,16,0,8,0,7
+Dropwizard Jersey Support,io.dropwizard.jersey.filter,CharsetUtf8Filter,0,28,2,2,0,7,2,3,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.filter,RuntimeFilter,0,57,1,1,0,12,1,5,0,5
+Dropwizard Jersey Support,io.dropwizard.jersey.filter,RequestIdFilter,0,90,0,2,0,20,0,5,0,4
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalMessageBodyWriter,2,52,0,4,1,9,1,5,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalLongParamConverterProvider.OptionalLongParamConverter,22,11,4,2,5,4,3,3,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalLongParamConverterProvider,0,17,0,2,0,3,0,3,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalParamConverterProvider.new ParamConverter() {...},3,15,0,0,1,2,1,2,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalParamConverterProvider.new ParamConverter() {...},3,27,0,0,1,2,1,3,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalParamConverterProvider,2,67,4,8,1,13,4,4,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,EmptyOptionalNoContentExceptionMapper,6,0,0,0,2,0,2,0,2,0
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalLongMessageBodyWriter,2,20,0,2,1,6,1,4,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalIntParamConverterProvider,0,17,0,2,0,3,0,3,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,EmptyOptionalExceptionMapper,0,7,0,0,0,2,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalParamBinder,0,36,0,0,0,6,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalDoubleParamConverterProvider,0,17,0,2,0,3,0,3,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalDoubleMessageBodyWriter,2,20,0,2,1,6,1,4,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalIntMessageBodyWriter,2,20,0,2,1,6,1,4,1,3
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalIntParamConverterProvider.OptionalIntParamConverter,22,11,4,2,5,4,3,3,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,EmptyOptionalException,0,5,0,0,0,1,0,1,0,1
+Dropwizard Jersey Support,io.dropwizard.jersey.optional,OptionalDoubleParamConverterProvider.OptionalDoubleParamConverter,22,11,4,2,5,4,3,3,1,2
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,ConstraintMessage,2,369,4,42,1,76,4,31,0,11
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,NonEmptyStringParamUnwrapper,0,11,0,0,0,3,0,3,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,FuzzyEnumParamConverterProvider.new ParamConverter() {...},0,178,0,10,0,36,0,9,0,4
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,DropwizardConfiguredValidator,35,189,1,20,5,37,4,18,3,8
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,MutableValidatorFactory,5,13,0,0,3,3,2,2,2,2
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,JerseyParameterNameProvider,0,156,0,18,0,25,0,12,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,ParamValidatorUnwrapper,0,28,0,2,0,6,0,4,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,FuzzyEnumParamConverterProvider,0,38,0,2,0,9,0,4,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,ValidationErrorMessage,0,9,0,0,0,4,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,JerseyViolationExceptionMapper,0,44,0,0,0,12,0,4,0,4
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,Validators,0,26,0,0,0,7,0,3,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,JerseyViolationException,0,10,0,0,0,4,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.validation,HibernateValidationBinder,0,17,0,0,0,5,0,2,0,2
+Dropwizard Jersey Support,io.dropwizard.jersey.caching,CacheControlledResponseFeature.CacheControlledResponseFilter,0,76,0,4,0,19,0,5,0,3
+Dropwizard Jersey Support,io.dropwizard.jersey.caching,CacheControlledResponseFeature,0,24,0,2,0,6,0,3,0,2
+Dropwizard Validation Support,io.dropwizard.validation.selfvalidating,ViolationCollector,0,29,0,0,0,12,0,5,0,5
+Dropwizard Validation Support,io.dropwizard.validation.selfvalidating,SelfValidatingValidator,1,163,2,14,0,35,2,14,0,8
+Dropwizard Validation Support,io.dropwizard.validation.selfvalidating,ValidationCaller,0,10,0,0,0,4,0,3,0,3
+Dropwizard Validation Support,io.dropwizard.validation.selfvalidating,SelfValidatingValidator.ProxyValidationCaller,20,35,0,0,2,9,0,2,0,2
+Dropwizard Validation Support,io.dropwizard.validation.valuehandling,GuavaOptionalValidatedValueUnwrapper,0,26,0,0,0,5,0,3,0,3
+Dropwizard Validation Support,io.dropwizard.validation.valuehandling,OptionalLongValidatedValueUnwrapper,0,14,0,2,0,3,0,4,0,3
+Dropwizard Validation Support,io.dropwizard.validation.valuehandling,OptionalIntValidatedValueUnwrapper,0,14,0,2,0,3,0,4,0,3
+Dropwizard Validation Support,io.dropwizard.validation.valuehandling,OptionalDoubleValidatedValueUnwrapper,0,14,0,2,0,3,0,4,0,3
+Dropwizard Validation Support,io.dropwizard.validation,PortRangeValidator,0,29,0,6,0,5,0,6,0,3
+Dropwizard Validation Support,io.dropwizard.validation,BaseValidator,0,25,0,0,0,8,0,2,0,2
+Dropwizard Validation Support,io.dropwizard.validation,MaxDurationValidator,2,55,1,7,1,14,1,6,0,3
+Dropwizard Validation Support,io.dropwizard.validation,MaxSizeValidator,0,33,1,3,0,7,1,4,0,3
+Dropwizard Validation Support,io.dropwizard.validation,MinSizeValidator,0,33,1,3,0,7,1,4,0,3
+Dropwizard Validation Support,io.dropwizard.validation,ConstraintViolations,27,45,2,4,6,8,3,4,2,2
+Dropwizard Validation Support,io.dropwizard.validation,OneOfValidator,5,81,3,11,1,16,3,7,0,3
+Dropwizard Validation Support,io.dropwizard.validation,MinDurationValidator,2,55,1,7,1,14,1,6,0,3
+Dropwizard Validation Support,io.dropwizard.validation,MethodValidator,0,13,1,3,0,3,1,4,0,3
+Dropwizard Metrics Support,io.dropwizard.metrics,MetricsFactory,22,61,0,2,3,20,1,8,1,7
+Dropwizard Metrics Support,io.dropwizard.metrics,SubstringMatchingStrategy,0,22,0,4,0,6,0,4,0,2
+Dropwizard Metrics Support,io.dropwizard.metrics,RegexStringMatchingStrategy,0,39,1,5,0,11,1,4,0,2
+Dropwizard Metrics Support,io.dropwizard.metrics,Slf4jReporterFactory,13,38,1,1,4,13,3,5,2,5
+Dropwizard Metrics Support,io.dropwizard.metrics,DefaultStringMatchingStrategy,0,7,0,0,0,2,0,2,0,2
+Dropwizard Metrics Support,io.dropwizard.metrics,BaseReporterFactory,4,159,0,10,2,49,1,27,1,22
+Dropwizard Metrics Support,io.dropwizard.metrics,ScheduledReporterManager,14,9,0,0,4,4,2,1,2,1
+Dropwizard Metrics Support,io.dropwizard.metrics,ConsoleReporterFactory,0,47,0,0,0,18,0,6,0,6
+Dropwizard Metrics Support,io.dropwizard.metrics,CsvReporterFactory,16,39,3,1,1,13,2,4,0,4
+Dropwizard Metrics Support,io.dropwizard.metrics,BaseFormattedReporterFactory,4,9,0,0,2,4,1,2,1,2
+Dropwizard Metrics Support,io.dropwizard.metrics,ConsoleReporterFactory.ConsoleStream,2,29,1,1,1,5,1,2,0,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging,LogbackAccessRequestLogFactory,57,16,4,0,12,6,4,3,2,3
+Dropwizard Request Logging Support,io.dropwizard.request.logging,ExternalRequestLogFactory,8,9,0,0,3,3,2,2,2,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging,LogbackAccessRequestLog,0,7,0,0,0,3,0,2,0,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging.old,LogbackClassicRequestLogFactory,8,85,2,2,1,22,2,8,1,7
+Dropwizard Request Logging Support,io.dropwizard.request.logging.old,DropwizardSlf4jRequestLog,7,56,0,0,2,22,0,5,0,5
+Dropwizard Request Logging Support,io.dropwizard.request.logging.old,LogbackClassicRequestLogFactory.RequestLogLayout,12,6,0,0,2,3,2,1,2,1
+Dropwizard Request Logging Support,io.dropwizard.request.logging.layout,LogbackAccessRequestLayoutFactory,9,0,0,0,2,0,2,0,2,0
+Dropwizard Request Logging Support,io.dropwizard.request.logging.layout,LogbackAccessRequestLayout,0,35,0,0,0,8,0,2,0,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging.layout,SafeRequestParameterConverter,8,40,4,6,3,11,4,4,0,3
+Dropwizard Request Logging Support,io.dropwizard.request.logging.async,AsyncAccessEventAppenderFactory,8,0,0,0,2,0,2,0,2,0
+Dropwizard Request Logging Support,io.dropwizard.request.logging.async,AsyncAccessEventAppenderFactory.new AsyncAppenderBase() {...},9,0,0,0,3,0,2,0,2,0
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,JettyManaged,4,17,0,0,1,8,1,4,1,4
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,AutoCloseableManager,0,11,0,0,0,6,0,3,0,3
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,ExecutorServiceManager,27,45,1,3,2,14,2,8,1,7
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,ServerLifecycleListener,19,0,0,0,3,0,2,0,2,0
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,ExecutorServiceBuilder,21,167,2,10,8,40,6,16,4,12
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,ScheduledExecutorServiceBuilder,21,106,2,2,8,24,6,6,4,6
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,LifecycleEnvironment.new AbstractLifeCycle.AbstractLifeCycleListener() {...},7,6,0,0,2,1,1,1,1,1
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,LifecycleEnvironment,33,92,1,3,8,19,5,10,4,9
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,LifecycleEnvironment.ServerListener,15,0,2,0,6,0,3,0,2,0
+Dropwizard Jackson Support,io.dropwizard.jackson,CaffeineModule.CaffeineSpecSerializer,0,5,0,0,0,2,0,1,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,FuzzyEnumModule.PermissiveEnumDeserializer,0,69,0,4,0,11,0,5,0,3
+Dropwizard Jackson Support,io.dropwizard.jackson,CaffeineModule.CaffeineDeserializers,0,16,0,2,0,3,0,2,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,FuzzyEnumModule.PermissiveEnumDeserializers,2,77,2,12,0,15,2,6,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,FuzzyEnumModule,0,14,0,0,0,5,0,4,0,4
+Dropwizard Jackson Support,io.dropwizard.jackson,CaffeineModule.CaffeineSpecDeserializer,3,14,2,2,1,3,2,1,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,SafeDurationDeserializer,0,40,1,5,0,9,1,5,0,3
+Dropwizard Jackson Support,io.dropwizard.jackson,AnnotationSensitivePropertyNamingStrategy,32,48,4,4,5,10,4,5,1,4
+Dropwizard Jackson Support,io.dropwizard.jackson,SafeInstantDeserializer,0,43,1,3,0,7,1,4,0,3
+Dropwizard Jackson Support,io.dropwizard.jackson,Jackson,12,89,0,0,3,17,1,3,1,3
+Dropwizard Jackson Support,io.dropwizard.jackson,CaffeineModule,0,22,0,0,0,6,0,4,0,4
+Dropwizard Jackson Support,io.dropwizard.jackson,GuavaExtrasModule.CacheBuilderSpecSerializer,0,5,0,0,0,2,0,1,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,GuavaExtrasModule.GuavaExtrasSerializers,0,16,0,2,0,3,0,2,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,GuavaExtrasModule.GuavaExtrasDeserializers,0,16,0,2,0,3,0,2,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,GuavaExtrasModule,0,20,0,0,0,6,0,4,0,4
+Dropwizard Jackson Support,io.dropwizard.jackson,SafeJavaTimeModule,46,67,0,0,6,10,6,3,6,3
+Dropwizard Jackson Support,io.dropwizard.jackson,GuavaExtrasModule.CacheBuilderSpecDeserializer,2,14,2,2,1,3,2,1,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,CaffeineModule.CaffeineSerializers,0,16,0,2,0,3,0,2,0,1
+Dropwizard Jackson Support,io.dropwizard.jackson,DiscoverableSubtypeResolver,17,130,1,9,6,30,2,10,1,6
+Dropwizard Utility Classes,io.dropwizard.util,Resources,65,0,4,0,13,0,6,0,4,0
+Dropwizard Utility Classes,io.dropwizard.util,SizeUnit,0,100,0,0,0,15,0,8,0,8
+Dropwizard Utility Classes,io.dropwizard.util,Strings,117,0,18,0,19,0,13,0,4,0
+Dropwizard Utility Classes,io.dropwizard.util,Size,20,331,4,12,3,62,5,22,1,18
+Dropwizard Utility Classes,io.dropwizard.util,Enums,3,68,0,8,1,14,1,5,1,1
+Dropwizard Utility Classes,io.dropwizard.util,Optionals,3,9,0,0,1,2,1,2,1,2
+Dropwizard Utility Classes,io.dropwizard.util,CharStreams,0,24,0,2,0,5,0,2,0,1
+Dropwizard Utility Classes,io.dropwizard.util,Generics,1,126,7,21,0,28,7,10,0,3
+Dropwizard Utility Classes,io.dropwizard.util,Lists,37,0,4,0,9,0,4,0,2,0
+Dropwizard Utility Classes,io.dropwizard.util,ByteStreams,0,27,0,2,0,7,0,3,0,2
+Dropwizard Utility Classes,io.dropwizard.util,Throwables,34,0,8,0,10,0,5,0,1,0
+Dropwizard Utility Classes,io.dropwizard.util,JarLocation,5,32,1,1,3,9,1,3,0,3
+Dropwizard Utility Classes,io.dropwizard.util,Duration,20,363,5,13,3,66,6,26,1,22
+Dropwizard Utility Classes,io.dropwizard.util,Sets,123,0,2,0,30,0,7,0,6,0
+Dropwizard Utility Classes,io.dropwizard.util,DirectExecutorService,156,0,16,0,42,0,17,0,9,0
+Dropwizard Utility Classes,io.dropwizard.util,Maps,94,0,0,0,22,0,4,0,4,0
+Dropwizard Configuration Support,io.dropwizard.configuration,YamlConfigurationFactory,0,11,0,0,0,2,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,JsonConfigurationFactory,0,10,0,0,0,2,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationParsingException.Builder.LevenshteinComparator,10,41,2,4,6,10,4,4,2,3
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationValidationException,0,13,0,0,0,4,0,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationException,4,63,1,3,1,13,2,5,1,4
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationFactory,0,8,0,0,0,1,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,UrlConfigurationSourceProvider,0,9,0,0,0,2,0,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,EnvironmentVariableSubstitutor,0,21,0,0,0,7,0,3,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationParsingException.Builder,16,359,13,41,5,80,14,38,1,24
+Dropwizard Configuration Support,io.dropwizard.configuration,FileConfigurationSourceProvider,14,16,1,1,1,4,1,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,UndefinedEnvironmentVariableException,0,4,0,0,0,2,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,SubstitutingSourceProvider,0,41,0,0,0,8,0,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,ResourceConfigurationSourceProvider,0,27,1,3,0,4,1,4,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationParsingException,0,18,0,0,0,5,0,3,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,EnvironmentVariableLookup,0,38,0,4,0,9,0,5,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,BaseConfigurationFactory,52,519,7,39,5,121,7,26,0,10
+Dropwizard Configuration Support,io.dropwizard.configuration,DefaultConfigurationFactoryFactory,0,18,0,0,0,4,0,3,0,3

@@ -1,0 +1,31 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Unknown Test", which occurs when a test method that does not contain a single assertion statement and @Test(expected) annotation parameter.
+Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves creating an assertion for this test method, or deleting the test method.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+@Test
+public void hitGetPOICategoriesApi() throws Exception {
+    POICategories poiCategories = apiClient.getPOICategories(16);
+    for (POICategory category : poiCategories) {
+      System.out.println(category.name() + ": " + category);
+    }
+}
+####
+<Refactored test code>
+####
+
+####
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```

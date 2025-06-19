@@ -1,0 +1,17 @@
+File,statements,missing,excluded,branches,partial,coverage
+src/main/python/pybuilder/__init__.py,14,12,0,2,0,12%
+src/main/python/pybuilder/_vendor/__init__.py,1,0,0,0,0,100%
+src/main/python/pybuilder/_vendor/colorama/__init__.py,4,0,0,0,0,100%
+src/main/python/pybuilder/_vendor/colorama/ansi.py,73,8,0,4,0,90%
+src/main/python/pybuilder/_vendor/colorama/ansitowin32.py,145,69,0,58,4,41%
+src/main/python/pybuilder/_vendor/colorama/initialise.py,69,47,0,32,0,22%
+src/main/python/pybuilder/_vendor/colorama/tests/__init__.py,0,0,0,0,0,100%
+src/main/python/pybuilder/_vendor/colorama/tests/ansi_test.py,55,1,0,2,1,96%
+src/main/python/pybuilder/_vendor/colorama/tests/ansitowin32_test.py,66,20,0,2,1,69%
+src/main/python/pybuilder/_vendor/colorama/tests/initialise_test.py,136,92,0,8,1,31%
+src/main/python/pybuilder/_vendor/colorama/tests/isatty_test.py,43,1,0,2,1,96%
+src/main/python/pybuilder/_vendor/colorama/tests/utils.py,41,4,0,0,0,90%
+src/main/python/pybuilder/_vendor/colorama/tests/winterm_test.py,89,66,0,2,1,26%
+src/main/python/pybuilder/_vendor/colorama/win32.py,95,84,0,8,0,11%
+src/main/python/pybuilder/_vendor/colorama/winterm.py,136,102,0,42,0,19%
+Total,967,506,0,162,9,42%

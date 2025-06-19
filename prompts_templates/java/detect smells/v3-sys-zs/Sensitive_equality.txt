@@ -1,0 +1,13 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Sensitive Equality":
+Occurs when the toString method is used within a test method. Test methods verify objects by invoking the default toString() method of the object and comparing the output against an specific string.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+
+

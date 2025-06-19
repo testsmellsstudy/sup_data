@@ -1,0 +1,13 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---Your task is to refactor the Java test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code has a test smell known as "Magic Number", which occurs when an assertion function contains a numeric literal as an argument. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves assigning a variable with this literal and replacing it in the assertion function.
+
+Now provide this refactored test code, delimited by four hashtags:
+
+

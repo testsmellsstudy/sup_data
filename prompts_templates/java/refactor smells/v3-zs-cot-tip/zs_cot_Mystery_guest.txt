@@ -1,0 +1,15 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---Your task is to refactor the Java test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Mystery Guest", which occurs when a test method utilizes external resources (e.g. files, database, etc.). Second, I need a version of code that keeps the same test's intention but mitigates this smell.
+One approach involves mocking objects in place of using external resources.
+
+Now provide this refactored test code, delimited by four hashtags:
+
+
+
+

@@ -1,0 +1,6 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install setuptools mock
+python setup.py install
+pip install pytest pytest-reportlog pytest-cov
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log polling.log

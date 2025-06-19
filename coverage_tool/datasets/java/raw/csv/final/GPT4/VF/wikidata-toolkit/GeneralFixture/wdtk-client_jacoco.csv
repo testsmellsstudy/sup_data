@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.EntityStatistics,21,0,0,0,6,0,1,0,1,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.PropertyRecord.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.UsageRecord.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,DumpProcessingOutputAction,37,237,5,23,9,60,6,24,1,13
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.SiteRecord,18,0,0,0,6,0,1,0,1,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,RdfSerializationAction,52,403,3,19,12,90,6,20,3,12
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer,1432,0,118,0,327,0,92,0,33,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.UsageRecord,141,0,4,0,22,0,4,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.PropertyRecord,83,0,4,0,17,0,5,0,3,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,ClientConfiguration,71,871,1,76,17,223,5,68,4,27
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,DumpProcessingOutputAction.new Closeable() {...},0,13,0,0,0,3,0,2,0,2
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,Client,354,101,35,5,101,33,23,6,5,4
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.ClassRecord,59,0,2,0,14,0,3,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,DumpProcessingOutputAction.new DumpProcessingOutputAction.FinishableRunnable() {...},3,60,1,7,2,14,1,6,0,3
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,JsonSerializationAction,20,71,1,1,5,23,2,9,1,9

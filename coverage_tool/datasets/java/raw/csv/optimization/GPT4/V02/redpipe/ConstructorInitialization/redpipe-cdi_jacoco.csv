@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+redpipe-cdi,net.redpipe.cdi,CdiPlugin.new InitialContextFactoryBuilder() {...},0,11,0,0,0,2,0,2,0,2
+redpipe-cdi,net.redpipe.cdi,CdiPlugin.1.1.new InitialContext() {...},0,19,0,2,0,4,0,3,0,2
+redpipe-cdi,net.redpipe.cdi,CdiGlobalProvider,10,9,0,0,3,3,3,3,3,3
+redpipe-cdi,net.redpipe.cdi,CdiPlugin,3,154,0,2,2,40,0,12,0,11
+redpipe-cdi,net.redpipe.cdi,App,7,0,0,0,3,0,2,0,2,0
+redpipe-cdi,net.redpipe.cdi,CdiPlugin.1.new InitialContextFactory() {...},0,13,0,0,0,3,0,2,0,2

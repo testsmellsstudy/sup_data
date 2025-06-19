@@ -1,0 +1,73 @@
+---SYSTEMCONTENT---
+You are a software quality assurance engineer specializing in Python. Your task is to assure test code quality by
+detecting test smells.
+
+Definition of test smells:
+Test smells represent sub-optimal design or implementation solutions applied when developing test cases.
+
+You are going to proceed step by step. First, you will be provided with test code delimited by triple backticks. Second, you should check the presence of a test smell known as "Lack of Cohesion". This test smell occurs if test methods that are grouped together in a test suite are not cohesive. Third, according to the definition of "Lack of Cohesion" you should answer 'yes' if you identify this test smell in the test code, or you should answer 'no' if you don't find this test smell in the presented test code.
+
+
+<The code below is an example where Lack of Cohesion is present>
+####
+class TestPrettyRepr(unittest.TestCase):
+
+    def _verify(self, item, expected=None, **config):
+        if not expected:
+            expected = repr(item).lstrip('')
+        assert_equal(prepr(item, **config), expected)
+        if isinstance(item, (str, bytes)) and (not config):
+            assert_equal(prepr([item]), '[%s]' % expected)
+            assert_equal(prepr((item,)), '(%s,)' % expected)
+            assert_equal(prepr({item: item}), '{%s: %s}' % (expected, expected))
+            assert_equal(prepr({item}), '{%s}' % expected)
+
+    def test_ascii_string(self):
+        self._verify('foo', "'foo'")
+        self._verify("f'o'o", '"f\'o\'o"')
+
+    def test_ascii_bytes(self):
+        self._verify(b'ascii', "b'ascii'")
+
+    def test_bytearray(self):
+        self._verify(bytearray(b'foo'), "bytearray(b'foo')")
+
+    def test_non_strings(self):
+        for inp in [1, -2.0, True, None, -2.0, (), [], {}, StrFails()]:
+            self._verify(inp)
+
+    def test_failing_repr(self):
+        failing = ReprFails()
+        self._verify(failing, failing.unrepr)
+
+    def test_bytes_repr(self):
+        obj = BytesRepr()
+        self._verify(obj, obj.unrepr)
+
+    def test_collections(self):
+        self._verify(['foo', b'bar', 3], "['foo', b'bar', 3]")
+        self._verify(['foo', b'b\xe4r', ('x', b'y')], "['foo', b'b\\xe4r', ('x', b'y')]")
+        self._verify({'x': b'\xe4'}, "{'x': b'\\xe4'}")
+        self._verify(['ä'], "['ä']")
+        self._verify({'ä'}, "{'ä'}")
+
+    def test_dotdict(self):
+        self._verify(DotDict({'x': b'\xe4'}), "{'x': b'\\xe4'}")
+
+    def test_recursive(self):
+        x = [1, 2]
+        x.append(x)
+        match = re.match('\\[1, 2. <Recursion on list with id=\\d+>]', prepr(x))
+        assert_true(match is not None)
+
+    def test_split_big_collections(self):
+        self._verify(list(range(20)))
+        self._verify(list(range(100)), width=400)
+        self._verify(list(range(100)), '[%s]' % ',\n '.join((str(i) for i in range(100))))
+        self._verify(['Hello, world!'] * 4, '[%s]' % ', '.join(["'Hello, world!'"] * 4))
+        self._verify(['Hello, world!'] * 25, '[%s]' % ', '.join(["'Hello, world!'"] * 25), width=500)
+        self._verify(['Hello, world!'] * 25, '[%s]' % ',\n '.join(["'Hello, world!'"] * 25))
+####
+
+Now, analyze the test code below:
+```{class_code}```

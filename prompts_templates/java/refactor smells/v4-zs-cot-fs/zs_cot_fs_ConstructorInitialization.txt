@@ -1,0 +1,63 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Constructor Initialization", which occurs when a test class utilizes a constructor instead of a setUp method to initialize fields. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves replacing all code in costructor to a setUp method.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+public class TestLiveAnyEPG extends TestLiveAPIC {
+
+    private Session session;
+
+    public TestLiveAnyEPG(String... args) {
+        super(TestLiveAnyEPG.class, args);
+        this.session = null;
+    }
+
+    public void check_get_deep() throws Exception { // Assuming exceptions for get_deep and get_children
+        List<Tenant> tenants = Tenant.getDeep(session, Collections.singletonList("aci-toolkit-test"));
+        assertTrue(tenants.size() > 0);
+
+        List<Context> contexts = tenants.get(0).getChildren(Context.class);
+        assertTrue(contexts.size() > 0);
+
+        List<AnyEPG> anyEpgList = contexts.get(0).getChildren(AnyEPG.class);
+        assertTrue(anyEpgList.size() > 0);
+    }
+}
+```
+<Refactored test code>
+```
+public class TestLiveAnyEPG extends TestLiveAPIC {
+    private Session session;
+
+    @Before
+    public void setUp() {
+        session = null;
+        super.setUp();
+    }
+
+    @Test
+    public void checkGetDeep() {
+        Tenant[] tenants = Tenant.getDeep(session, "aci-toolkit-test");
+        assertTrue(tenants.length > 0);
+
+        Context[] contexts = tenants[0].getChildren(Context.class);
+        assertTrue(contexts.length > 0);
+
+        AnyEPG[] anyEpgs = contexts[0].getChildren(AnyEPG.class);
+        assertTrue(anyEpgs.length > 0);
+    }
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+```
+{test_code_with_smell_here}
+```
+

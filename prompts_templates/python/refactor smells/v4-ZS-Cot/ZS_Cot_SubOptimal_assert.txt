@@ -1,0 +1,46 @@
+---SYSTEMCONTENT---You are an expert Python developer. 
+
+---USERCONTENT---Your task is to refactor the Python test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Suboptimal Assert", which occurs when the assertion function could be replaced by a more intuitive one. You can find below the list of suitable changes that could be applied. 
+
+<List of suboptimal asserts below>
+assertTrue(X in Y) can be rewritten as assertIn(X, Y) 
+assertTrue(X not in Y) can be rewritten as assertNotIn(X, Y) 
+assertFalse(X in Y) can be rewritten as assertNotIn(X, Y) 
+assertFalse(X not in Y) can be rewritten as assertIn(X, Y) 
+assertEqual(X, False) can be rewritten as assertFalse(X) 
+assertEqual(X, True) can be rewritten as assertTrue(X) 
+assertNotEqual(X, False) can be rewritten as assertTrue(X) 
+assertNotEqual(X, True) can be rewritten as assertFalse(X) 
+assertIs(X, False) can be rewritten as assertFalse(X) 
+assertIs(X, True) can be rewritten as assertTrue(X) 
+assertIsNot(X, False) can be rewritten as assertTrue(X) 
+assertIsNot(X, True) can be rewritten as assertFalse(X) 
+assertTrue(X == Y) can be rewritten as assertEqual(X, Y) 
+assertTrue(X != Y) can be rewritten as assertNotEqual(X, Y) 
+assertFalse(X == Y) can be rewritten as assertNotEqual(X, Y) 
+assertFalse(X != Y) can be rewritten as assertEqual(X, Y) 
+assertTrue(X is Y) can be rewritten as assertIs(X, Y) 
+assertTrue(X is not Y) can be rewritten as assertIsNot(X, Y) 
+assertFalse(X is Y) can be rewritten as assertIsNot(X, Y) 
+assertFalse(X is not Y) can be rewritten as assertIs(X, Y) 
+assertEqual(X, None) can be rewritten as assertIsNone(X) 
+assertNotEqual(X, None) can be rewritten as assertIsNotNone(X) 
+assertIs(X, None) can be rewritten as assertIsNone(X) 
+assertIsNot(X, None) can be rewritten as assertIsNotNone(X) 
+assertTrue(X < Y) can be rewritten as assertLess(X, Y) 
+assertTrue(X <= Y) can be rewritten as assertLessEqual(X, Y) 
+assertTrue(X > Y) can be rewritten as assertGreater(X, Y) 
+assertTrue(X >= Y) can be rewritten as assertGreaterEqual(X, Y) 
+assertFalse(X < Y) can be rewritten as assertGreaterEqual(X, Y) 
+assertFalse(X <= Y) can be rewritten as assertGreater(X, Y) 
+assertFalse(X > Y) can be rewritten as assertLessEqual(X, Y) 
+assertFalse(X >= Y) can be rewritten as assertLess(X, Y)
+```
+Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+
+Now provide only the refactored test code:

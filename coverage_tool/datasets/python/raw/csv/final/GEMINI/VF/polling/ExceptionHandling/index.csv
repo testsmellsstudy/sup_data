@@ -1,0 +1,7 @@
+File,statements,missing,excluded,branches,partial,coverage
+/home/maquina-05/laboratory/test_smells_study/test-smells.llm.experiments.none.br/__init__.py,0,0,0,0,0,100%
+/home/maquina-05/laboratory/test_smells_study/test-smells.llm.experiments.none.br/python/__init__.py,0,0,0,0,0,100%
+polling.py,42,3,0,6,0,94%
+tests/__init__.py,0,0,0,0,0,100%
+tests/test_polling.py,40,0,0,0,0,100%
+Total,82,3,0,6,0,97%

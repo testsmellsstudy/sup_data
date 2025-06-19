@@ -1,0 +1,77 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Python. You will be provided with a test code in Python and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Lack of Cohesion of Test Cases: This smell occurs if test cases that are grouped together in a test suite are not cohesive.
+Follow the steps below to refactor the Lack of Cohesion of Test Cases:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework its been used;
+<Step 3> Locate where Lack of Cohesion of Test Cases occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Lack of Cohesion of Test Cases. You can modify the test methods as you wish but keep in mind that you should maintain the main idea of the test code. 
+<Step 5> Give me only the test code you refactored.
+
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+class TestFeatureCalc:
+    def test_api_get_request():
+        with requests_mock.Mocker() as mock:
+            mock.get('https://jsonplaceholder.typicode.com/posts/1', json={'userId': 1, 'id': 1, 'title': 'sample title', 'body': 'sample body'})
+            response = requests.get('https://jsonplaceholder.typicode.com/posts/1')
+            assert response.status_code == 200
+            assert response.json() == {'userId': 1, 'id': 1, 'title': 'sample title', 'body': 'sample body'}
+
+    def test_api_post_request():
+        with requests_mock.Mocker() as mock:
+            mock.post('https://jsonplaceholder.typicode.com/posts', json={'id': 101})
+            response = requests.post('https://jsonplaceholder.typicode.com/posts', json={'title': 'foo', 'body': 'bar', 'userId': 1})
+            assert response.status_code == 201
+            assert response.json() == {'id': 101}
+
+    def test_sine():
+        assert math.isclose(math.sin(math.pi / 2), 1.0, rel_tol=1e-9)
+
+    def test_cosine():
+        assert math.isclose(math.cos(0), 1.0, rel_tol=1e-9)
+
+    def test_tangent():
+        assert math.isclose(math.tan(math.pi / 4), 1.0, rel_tol=1e-9)
+####
+<Refactored test code>
+####
+class TestFeatureCalcAPI:
+
+    @pytest.mark.api
+    def test_api_get_request():
+        with requests_mock.Mocker() as mock:
+            mock.get('https://jsonplaceholder.typicode.com/posts/1', json={'userId': 1, 'id': 1, 'title': 'sample title', 'body': 'sample body'})
+            response = requests.get('https://jsonplaceholder.typicode.com/posts/1')
+            assert response.status_code == 200
+            assert response.json() == {'userId': 1, 'id': 1, 'title': 'sample title', 'body': 'sample body'}
+    
+    @pytest.mark.api
+    def test_api_post_request():
+        with requests_mock.Mocker() as mock:
+            mock.post('https://jsonplaceholder.typicode.com/posts', json={'id': 101})
+            response = requests.post('https://jsonplaceholder.typicode.com/posts', json={'title': 'foo', 'body': 'bar', 'userId': 1})
+            assert response.status_code == 201
+            assert response.json() == {'id': 101}
+
+class TestCalcResults:
+    @pytest.mark.math
+    def test_sine():
+        assert math.isclose(math.sin(math.pi / 2), 1.0, rel_tol=1e-9)
+
+    @pytest.mark.math
+    def test_cosine():
+        assert math.isclose(math.cos(0), 1.0, rel_tol=1e-9)
+
+    @pytest.mark.math
+    def test_tangent():
+        assert math.isclose(math.tan(math.pi / 4), 1.0, rel_tol=1e-9
+####
+
+---USERCONTENT---Refactor the code:\n

@@ -1,0 +1,10 @@
+python3 -m venv venv
+source venv/bin/activate
+python setup.py install
+cd docs/
+pip install -r requirements.txt
+cd ..
+pip install rich prompt-toolkit
+sudo apt-get install python3-tk
+pip install pytest pytest-reportlog pytest-cov
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log softlayer.log

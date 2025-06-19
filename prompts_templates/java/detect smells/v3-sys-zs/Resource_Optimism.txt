@@ -1,0 +1,11 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Resource Optimism":
+This smell occurs when a test method makes an optimistic assumption that the external resource (e.g., File), utilized by the test method, exists.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}

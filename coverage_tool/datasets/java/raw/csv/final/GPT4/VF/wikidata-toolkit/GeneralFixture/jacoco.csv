@@ -1,0 +1,177 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,FormIdValueImpl.JacksonInnerEntityId,0,11,0,0,0,5,0,3,0,3
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SnakGroupImpl,9,103,0,10,2,22,2,14,2,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,TimeValueImpl,7,87,0,0,2,21,2,17,2,17
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SitesImpl.SiteInformation,7,169,0,4,2,32,0,6,0,4
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,TermedStatementDocumentImpl.AliasesDeserializer,8,71,0,6,2,17,0,5,0,2
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SenseIdValueImpl.JacksonInnerEntityId,0,11,0,0,0,5,0,3,0,3
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,DatatypeIdImpl,15,189,1,29,2,49,2,31,1,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,FormDocumentImpl,74,190,3,19,12,41,8,19,5,11
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SiteLinkImpl,3,130,1,11,1,34,2,14,1,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,LexemeIdValueImpl,4,28,0,0,1,10,1,6,1,6
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ClaimImpl,3,47,0,0,1,13,1,9,1,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ValueImpl,0,9,0,0,0,4,0,2,0,2
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,FormIdValueImpl,4,93,0,4,1,19,1,14,1,12
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,LexemeDocumentImpl,96,255,4,22,14,50,9,24,5,15
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,TimeValueImpl.JacksonInnerTime,0,188,0,0,0,47,0,16,0,16
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StatementImpl.StatementRankSerializer,0,9,0,0,0,3,0,2,0,2
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SnakImpl,0,34,0,0,0,12,0,5,0,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StatementDocumentImpl,0,328,1,33,0,69,1,25,0,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,TermImpl,14,34,0,0,4,10,3,5,3,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,PropertyIdValueImpl,4,28,0,0,1,10,1,6,1,6
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,EntityDocumentImpl.NonZeroFilter,2,13,0,4,1,1,1,3,1,1
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,GlobeCoordinatesValueImpl,7,51,0,0,2,14,2,10,2,10
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StatementGroupImpl,9,193,3,17,2,41,5,18,2,11
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StatementImpl,17,204,2,14,3,50,4,23,2,17
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SenseIdValueImpl,4,93,0,4,1,19,1,14,1,12
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,NoValueSnakImpl,7,18,0,0,2,7,2,5,2,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,EntityIdValueImpl,24,149,3,17,3,33,3,19,0,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,QuantityValueImpl,7,59,0,2,2,17,2,11,2,10
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StatementImpl.StatementRankDeserializer,0,8,0,0,0,2,0,2,0,2
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SitesImpl,0,106,0,10,0,21,0,14,0,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,EntityDocumentImpl,5,46,1,1,2,16,2,4,1,4
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,TermedStatementDocumentImpl,6,202,1,21,2,51,2,20,1,10
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,PropertyDocumentImpl,3,238,0,2,1,32,1,16,1,15
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,GlobeCoordinatesValueImpl.JacksonInnerGlobeCoordinates,0,67,0,10,0,17,0,10,0,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,MonolingualTextValueImpl.JacksonInnerMonolingualText,0,27,0,0,0,8,0,3,0,3
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StringValueImpl,7,26,0,0,2,8,2,5,2,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,EntityIdValueImpl.JacksonInnerEntityId,24,149,5,13,3,31,5,12,0,7
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SomeValueSnakImpl,7,18,0,0,2,7,2,5,2,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ItemDocumentImpl,8,254,1,7,2,37,2,17,1,14
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ItemIdValueImpl,4,59,0,0,1,14,1,7,1,7
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,SenseDocumentImpl,61,103,2,8,11,23,7,11,5,8
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ValueImpl.JacksonDeserializer,21,125,3,16,2,31,3,15,0,4
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ReferenceImpl,3,115,0,6,1,23,1,11,1,8
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,ValueSnakImpl,20,101,1,15,4,31,3,16,2,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,QuantityValueImpl.JacksonInnerQuantity,3,117,1,13,1,25,1,15,0,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,MonolingualTextValueImpl,3,40,0,0,1,12,1,8,1,8
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,EntityRedirectDocumentImpl,12,81,0,0,2,22,2,9,2,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,StatementImpl.PreStatement,0,83,0,4,0,17,0,5,0,3
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.implementation,DataObjectFactoryImpl,24,227,1,1,2,37,2,29,1,29
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,EntityDocumentProcessorBroker,62,0,6,0,16,0,8,0,5,0
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,LexemeIdValue.new LexemeIdValue() {...},7,24,0,0,2,6,2,6,2,6
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,StatementDocument,67,340,22,50,11,66,22,45,4,27
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,ItemIdValue,0,5,0,0,0,1,0,1,0,1
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,ItemIdValue.new ItemIdValue() {...},0,31,0,0,0,8,0,8,0,8
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,LexemeIdValue,0,5,0,0,0,1,0,1,0,1
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,TermedDocument,0,26,0,4,0,4,0,4,0,2
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,EntityDocumentProcessorFilter,39,0,0,0,10,0,4,0,4,0
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,DocumentDataFilter,0,102,0,24,0,22,0,25,0,13
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,PropertyIdValue.new PropertyIdValue() {...},0,31,0,0,0,8,0,8,0,8
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,StatementRank,0,34,0,0,0,2,0,1,0,1
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,WikimediaLanguageCodes,3,2398,0,4,1,480,1,5,1,3
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,EntityDocumentProcessor,3,0,0,0,3,0,3,0,3,0
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.interfaces,PropertyIdValue,0,5,0,0,0,1,0,1,0,1
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,Hash,3,522,2,2,1,91,3,23,1,23
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,DatamodelConverter,267,424,9,35,56,95,28,45,21,30
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,DatamodelMapper,0,14,0,0,0,5,0,1,0,1
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,ReferenceBuilder,0,103,0,4,0,26,0,11,0,9
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,Datamodel,18,272,0,0,4,41,3,40,3,40
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,JsonSerializer,33,104,0,2,9,35,2,12,2,11
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,AbstractDataObjectBuilder,0,23,0,2,0,7,0,4,0,3
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,DatamodelFilter,0,343,0,30,0,85,0,27,0,12
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,Equality,7,861,7,269,2,203,8,155,1,24
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,DataFormatter,6,111,2,2,2,20,3,2,1,2
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,ToString,1180,50,87,0,222,5,78,5,27,5
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,StatementBuilder,0,245,0,10,0,59,0,25,0,20
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,PropertyDocumentBuilder,0,54,0,0,0,14,0,7,0,7
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,ItemDocumentBuilder,0,87,0,2,0,18,0,9,0,8
+Wikidata Toolkit Data Model,org.wikidata.wdtk.datamodel.helpers,EntityDocumentBuilder,9,254,1,13,2,52,1,17,0,11
+Wikidata Toolkit Utilities,org.wikidata.wdtk.util,DirectoryManagerFactory,12,56,1,1,3,11,2,4,1,4
+Wikidata Toolkit Utilities,org.wikidata.wdtk.util,CompressionType,0,34,0,0,0,2,0,1,0,1
+Wikidata Toolkit Utilities,org.wikidata.wdtk.util,Timer,18,687,4,66,2,154,4,61,0,30
+Wikidata Toolkit Utilities,org.wikidata.wdtk.util,WebResourceFetcherImpl,31,28,3,1,9,10,5,6,3,6
+Wikidata Toolkit Utilities,org.wikidata.wdtk.util,DirectoryManagerImpl,220,113,12,8,40,23,12,13,4,10
+Wikidata Toolkit Utilities,org.wikidata.wdtk.util,NestedIterator,0,69,0,16,0,18,0,13,0,5
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.EntityStatistics,21,0,0,0,6,0,1,0,1,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.PropertyRecord.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.UsageRecord.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,DumpProcessingOutputAction,37,237,5,23,9,60,6,24,1,13
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.SiteRecord,18,0,0,0,6,0,1,0,1,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,RdfSerializationAction,52,403,3,19,12,90,6,20,3,12
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer,1432,0,118,0,327,0,92,0,33,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.UsageRecord,141,0,4,0,22,0,4,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.PropertyRecord,83,0,4,0,17,0,5,0,3,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,ClientConfiguration,71,871,1,76,17,223,5,68,4,27
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,DumpProcessingOutputAction.new Closeable() {...},0,13,0,0,0,3,0,2,0,2
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,Client,354,101,35,5,101,33,23,6,5,4
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,SchemaUsageAnalyzer.ClassRecord,59,0,2,0,14,0,3,0,2,0
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,DumpProcessingOutputAction.new DumpProcessingOutputAction.FinishableRunnable() {...},3,60,1,7,2,14,1,6,0,3
+Wikidata Toolkit Command-line Tool,org.wikidata.wdtk.client,JsonSerializationAction,20,71,1,1,5,23,2,9,1,9
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,JacksonWbSearchEntitiesResult,280,66,72,0,65,28,38,19,2,19
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,TermStatementUpdate.AliasesWithUpdate,0,22,0,0,0,6,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,NeedLoginTokenException,4,0,0,0,2,0,1,0,1,0
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,StatementUpdate.StatementWithUpdate,0,12,0,0,0,4,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,LoginFailedException,0,9,0,0,0,4,0,2,0,2
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WbGetEntitiesSearchData,21,0,0,0,7,0,1,0,1,0
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WbGetEntitiesAction,20,192,2,24,4,49,2,15,0,4
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WbGetEntitiesActionData,0,21,0,0,0,7,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,StatementUpdate,69,775,18,108,10,179,17,64,0,18
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WbSearchEntitiesAction,73,101,4,10,11,29,5,6,1,3
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,JacksonWbSearchEntitiesResult.JacksonMatch,81,54,21,9,22,16,19,2,4,2
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WikibaseDataFetcher,87,270,9,19,27,70,15,19,6,14
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,ApiConnection,107,762,5,55,27,174,6,52,2,21
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WbEditingAction,106,560,16,52,20,137,13,42,0,21
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,BasicApiConnection,7,57,0,0,2,19,1,12,1,12
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,StatementUpdate.DeletedStatement,18,14,0,0,9,5,9,3,9,3
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,WikibaseDataEditor,92,244,1,1,21,56,6,19,5,19
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,RandomGuidGenerator,23,3,0,0,6,1,1,1,1,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,TermStatementUpdate.NameWithUpdate,0,12,0,0,0,4,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi,TermStatementUpdate,25,757,12,74,6,150,12,48,0,17
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi.apierrors,NoSuchEntityErrorException,0,5,0,0,0,2,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi.apierrors,MediaWikiApiErrorException,0,27,0,0,0,6,0,3,0,3
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi.apierrors,MediaWikiApiErrorHandler,3,35,0,5,1,6,1,5,1,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi.apierrors,MaxlagErrorException,0,5,0,0,0,2,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi.apierrors,TokenErrorException,0,5,0,0,0,2,0,1,0,1
+Wikidata Toolkit Wikibase API,org.wikidata.wdtk.wikibaseapi.apierrors,EditConflictErrorException,0,5,0,0,0,2,0,1,0,1
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,AnyValueConverter,18,118,0,0,2,23,2,8,2,8
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,GlobeCoordinatesValueConverter,42,130,2,4,8,33,2,5,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,EntityIdValueConverter,9,32,2,2,3,8,2,2,0,2
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,QuantityValueConverter,21,92,3,7,5,23,3,5,0,3
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,MonolingualTextValueConverter,9,31,2,2,3,8,2,2,0,2
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,TimeValueConverter,15,140,5,5,3,27,4,5,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,StringValueConverter,75,41,11,4,17,12,10,3,2,2
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,AbstractValueConverter,22,17,0,0,2,7,1,3,1,3
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,BufferedValueConverter,0,70,0,4,0,18,0,5,0,3
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,ReferenceRdfConverter,0,124,1,7,0,30,1,7,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,PropertyContext,0,104,0,0,0,2,0,1,0,1
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,SnakRdfConverter,147,177,10,20,35,45,13,14,4,7
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RdfConverter,51,904,15,53,16,221,17,41,2,21
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RankBuffer,11,39,2,4,3,11,2,5,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RdfWriter,3,350,0,0,1,135,1,18,1,18
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,PropertyRegister,61,320,6,27,15,74,6,25,0,14
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,OwlDeclarationBuffer,83,307,24,18,20,65,21,8,3,5
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,Vocabulary,12,595,2,21,5,114,3,26,1,12
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,SnakRdfConverter.PropertyRestriction,15,0,0,0,5,0,1,0,1,0
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RdfSerializer,59,52,0,0,17,19,4,5,4,5
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,BitVectorImpl,5,535,1,49,1,111,1,44,0,20
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,CountBitsArray,0,168,0,20,0,38,0,17,0,7
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,FindPositionArray,0,204,1,23,0,46,1,18,0,7
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,BitVectorIterator,0,93,1,11,0,18,1,11,0,6
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,RankedBitVectorImpl,0,248,0,12,0,54,0,21,0,15
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwLocalDumpFile,3,286,1,25,2,64,2,25,1,13
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwSitesDumpFileProcessor,28,278,8,28,9,59,7,17,0,6
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,EntityTimerProcessor.TimeoutException,6,0,0,0,1,0,1,0,1,0
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,DumpProcessingController,156,390,16,35,39,107,19,32,5,20
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwRevisionImpl,89,126,4,0,7,42,5,16,3,16
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,JsonDumpFileProcessor,123,116,12,6,24,40,7,8,0,6
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,DumpProcessingController.ListenerRegistration,22,60,10,12,4,13,8,6,0,3
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwDumpFormatException,0,4,0,0,0,2,0,1,0,1
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwRevisionProcessorBroker.RevisionSubscription,24,6,0,0,2,1,1,1,1,1
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,DumpContentType,0,54,0,0,0,2,0,1,0,1
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,WikibaseRevisionProcessor,190,96,7,5,41,31,6,9,1,8
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwRevisionDumpFileProcessor,63,490,13,58,15,140,13,44,0,10
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwDumpFile.DateComparator,0,9,0,0,0,2,0,2,0,2
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,StatisticsMwRevisionProcessor,0,282,3,7,0,47,3,10,0,8
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,MwRevisionProcessorBroker,0,211,2,28,0,51,2,19,0,6
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles,EntityTimerProcessor,46,118,8,6,9,33,6,11,1,9
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles.wmf,WmfOnlineStandardDumpFile,1,227,2,8,1,45,2,10,0,7
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles.wmf,WmfDumpFile,58,264,5,13,6,52,5,18,1,13
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles.wmf,JsonOnlineDumpFile,113,17,4,0,22,7,6,3,4,3
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles.wmf,WmfLocalDumpFile,1,67,0,2,1,18,1,6,1,5
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles.wmf,WmfDumpFileManager,50,426,4,40,12,93,3,28,0,9
+Wikidata Toolkit Dump File Handling,org.wikidata.wdtk.dumpfiles.wmf,WmfOnlineDailyDumpFile,1,185,1,3,1,40,1,8,0,7
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockStringContentFactory,22,154,1,8,4,38,2,11,1,7
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockWebResourceFetcher,0,80,0,4,0,23,0,10,0,8
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockDirectoryManager,26,341,0,32,5,81,3,34,3,18
+Wikidata Toolkit Testing Utilities,org.wikidata.wdtk.testing,MockOutputStream,0,16,0,0,0,6,0,2,0,2

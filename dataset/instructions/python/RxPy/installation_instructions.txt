@@ -1,0 +1,9 @@
+python3 -m venv venv
+source venv/bin/activate
+poetry install
+cd docs/
+pip install -r requirements.txt
+cd ..
+pip install typing_extensions
+pip install pytest pytest-reportlog pytest-cov
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log RxPy.log

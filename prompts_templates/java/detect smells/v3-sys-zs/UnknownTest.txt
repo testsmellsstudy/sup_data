@@ -1,0 +1,12 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Unknown Test":
+A test method that does not contain a single assertion statement and @Test(expected) annotation parameter.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+

@@ -1,0 +1,66 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Java. You will be provided with a test code in Java and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Lazy Test Smell: Occurs when multiple test methods invoke the same method of the production object.
+Follow the steps below to refactor Lazy Test Smell:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework is being used;
+<Step 3> Locate where the Lazy Test Smell occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Lazy Test Smell. You can modify the test method as you wish, but keep in mind that you should maintain the main idea of the test code.
+<Step 5> Give me only the test code you refactored.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+@Test
+public void testDecrypt() throws Exception {
+    FileInputStream file = new FileInputStream(ENCRYPTED_DATA_FILE_4_14);
+    byte[] enfileData = new byte[file.available()];
+    FileInputStream input = new FileInputStream(DECRYPTED_DATA_FILE_4_14);
+    byte[] fileData = new byte[input.available()];
+    input.read(fileData);
+    input.close();
+    file.read(enfileData);
+    file.close();
+    String expectedResult = new String(fileData, "UTF-8");
+    assertEquals("Testing simple decrypt",expectedResult, Cryptographer.decrypt(enfileData, "test"));
+}
+
+@Test
+public void testEncrypt() throws Exception {
+    String xml = readFileAsString(DECRYPTED_DATA_FILE_4_14);
+    byte[] encrypted = Cryptographer.encrypt(xml, "test");
+    String decrypt = Cryptographer.decrypt(encrypted, "test");
+    assertEquals(xml, decrypt);
+}
+####
+<Refactored test code>
+####
+@Before
+public void setUp() throws Exception {
+  FileInputStream file = new FileInputStream(ENCRYPTED_DATA_FILE_4_14);
+  byte[] enfileData = new byte[file.available()];
+  file.read(enfileData);
+  file.close();
+  decryptedData = Cryptographer.decrypt(enfileData, "test");
+}
+
+@Test
+public void testDecrypt() throws Exception {
+  String expectedResult = new String(decryptedData, "UTF-8");
+  assertEquals("Testing simple decrypt", expectedResult, decryptedData);
+}
+
+@Test
+public void testEncrypt() throws Exception {
+  String xml = readFileAsString(DECRYPTED_DATA_FILE_4_14);
+  byte[] encrypted = Cryptographer.encrypt(xml, "test");
+  String decrypt = Cryptographer.decrypt(encrypted, "test");
+  assertEquals(xml, decrypt);
+}
+####
+
+---USERCONTENT---Refactor the code:\n

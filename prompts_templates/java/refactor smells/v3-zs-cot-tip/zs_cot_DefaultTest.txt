@@ -1,0 +1,14 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---Your task is to refactor the Java test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Default Test", which occurs when a test class named with the default name the IDE generates. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves replacing the name of test class, according to the test framework used in the test code.
+
+Now provide this refactored test code, delimited by four hashtags:
+
+
+

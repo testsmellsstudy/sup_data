@@ -1,0 +1,325 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+unix4j-command,org.unix4j.unix.sed,SubstituteProcessor,32,345,3,51,5,66,3,30,0,6
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Iaglnp,23,2603,3,23,5,82,8,13,5,3
+unix4j-command,org.unix4j.unix.sed,CharMap,7,78,2,8,1,18,2,7,0,4
+unix4j-command,org.unix4j.unix.sed,SedOptionSets,0,74,0,0,0,24,0,2,0,2
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Iacdgilnpsy,25,2969,2,22,6,91,7,14,5,4
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,SedFactory,0,108,0,0,0,27,0,8,0,8
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,Command.new Command() {...},0,25,0,0,0,4,0,4,0,4
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Igilnp,23,2603,3,23,5,82,8,13,5,3
+unix4j-command,org.unix4j.unix.sed,SedOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.sed,Command,14,236,3,23,2,41,3,15,0,5
+unix4j-command,org.unix4j.unix.sed,PrintProcessor,18,68,3,7,2,16,3,6,0,4
+unix4j-command,org.unix4j.unix.sed,AbstractTextProcessor,54,150,5,9,4,32,4,8,0,5
+unix4j-command,org.unix4j.unix.sed,DeleteProcessor,16,57,1,3,1,14,1,5,0,4
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Icglnp,23,2603,3,23,5,82,8,13,5,3
+unix4j-command,org.unix4j.unix.sed,SedArguments,610,463,75,37,102,111,58,45,12,35
+unix4j-command,org.unix4j.unix.sed,SedCommand,12,48,1,9,1,14,1,6,0,2
+unix4j-command,org.unix4j.unix.sed,InsertProcessor,4,43,2,6,2,9,2,5,0,3
+unix4j-command,org.unix4j.unix.sed,AbstractSedProcessor,16,94,5,19,3,29,5,13,0,6
+unix4j-command,org.unix4j.unix.sed,AppendProcessor,2,45,2,6,1,10,2,5,0,3
+unix4j-command,org.unix4j.unix.sed,TranslateProcessor,16,155,1,17,1,32,1,12,0,4
+unix4j-command,org.unix4j.unix.sed,SedOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.sed,ChangeProcessor,2,41,1,3,1,9,1,4,0,3
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Idglnp,23,2603,3,23,5,82,8,13,5,3
+unix4j-command,org.unix4j.unix.sed,SedOption,36,141,4,0,7,18,7,5,5,5
+unix4j-command,org.unix4j.unix.sed,AbstractRegexpProcessor,12,64,2,8,1,14,2,5,0,2
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Iglnps,28,2598,3,23,6,81,9,12,6,2
+unix4j-command,org.unix4j.unix.sed,SedOptionSet_Iglnpy,23,2603,3,23,5,82,8,13,5,3
+unix4j-command,org.unix4j.unix.sed,SedOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.sed,SedOptions.new SedOptions() {...},8,9,0,0,3,4,3,4,3,4
+unix4j-command,org.unix4j.unix.echo,EchoOptions.Default,16,4,0,0,8,2,3,1,3,1
+unix4j-command,org.unix4j.unix.echo,EchoCommand.new LineProcessor() {...},16,77,2,8,3,14,3,6,1,3
+unix4j-command,org.unix4j.unix.echo,EchoFactory,26,15,0,0,6,3,2,2,2,2
+unix4j-command,org.unix4j.unix.echo,EchoArguments,303,312,40,32,49,70,31,26,6,15
+unix4j-command,org.unix4j.unix.echo,EchoOptionSets,0,14,0,0,0,4,0,2,0,2
+unix4j-command,org.unix4j.unix.echo,EchoOptions.new ValueConverter() {...},15,9,2,0,2,2,2,1,1,1
+unix4j-command,org.unix4j.unix.echo,EchoOptions.new EchoOptions() {...},12,5,0,0,5,2,5,2,5,2
+unix4j-command,org.unix4j.unix.echo,EchoOptionSet_n,28,70,3,3,6,9,9,2,6,2
+unix4j-command,org.unix4j.unix.echo,EchoCommand,0,17,0,0,0,4,0,2,0,2
+unix4j-command,org.unix4j.unix.echo,EchoOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.echo,EchoOption,44,23,4,0,10,5,10,2,8,2
+unix4j-command,org.unix4j.builder,DefaultUnix4jCommandBuilder,577,640,0,0,126,154,63,77,63,77
+unix4j-command,org.unix4j.unix.cat,CatOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.cat,CatArguments,290,311,39,31,40,75,30,27,4,18
+unix4j-command,org.unix4j.unix.cat,CatOptionSet_bs,23,143,3,7,5,14,8,5,5,3
+unix4j-command,org.unix4j.unix.cat,CatOption,36,53,4,0,7,10,7,5,5,5
+unix4j-command,org.unix4j.unix.cat,SqueezeEmptyLinesProcessor,0,40,0,6,0,13,0,6,0,3
+unix4j-command,org.unix4j.unix.cat,CatProcessor,0,15,0,0,0,5,0,3,0,3
+unix4j-command,org.unix4j.unix.cat,CatOptionSet_ns,23,143,3,7,5,14,8,5,5,3
+unix4j-command,org.unix4j.unix.cat,CatOptions.new CatOptions() {...},12,5,0,0,5,2,5,2,5,2
+unix4j-command,org.unix4j.unix.cat,CatOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.cat,NumberLinesProcessor,12,97,3,5,2,18,2,5,0,3
+unix4j-command,org.unix4j.unix.cat,CatOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.cat,CatOptionSets,0,26,0,0,0,8,0,2,0,2
+unix4j-command,org.unix4j.unix.cat,CatFactory,0,72,0,0,0,16,0,7,0,7
+unix4j-command,org.unix4j.unix.cat,CatCommand,0,94,0,10,0,19,0,9,0,4
+unix4j-command,org.unix4j.unix.cat,CatOptionSet_bns,27,107,4,4,6,15,9,4,5,4
+unix4j-command,org.unix4j.unix.head,HeadArguments,362,314,47,31,50,79,38,25,4,20
+unix4j-command,org.unix4j.unix.head,HeadOption,44,34,4,0,10,6,10,2,8,2
+unix4j-command,org.unix4j.unix.head,HeadCommand.new DefaultInputProcessor() {...},2,67,1,3,0,11,1,4,0,3
+unix4j-command,org.unix4j.unix.head,HeadOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.head,HeadOptionSets,0,20,0,0,0,6,0,2,0,2
+unix4j-command,org.unix4j.unix.head,AbstractHeadProcessor,0,35,0,2,0,10,0,4,0,3
+unix4j-command,org.unix4j.unix.head,HeadCommand,0,120,1,13,0,21,1,10,0,4
+unix4j-command,org.unix4j.unix.head,HeadLinesProcessor,0,33,1,5,0,6,1,4,0,2
+unix4j-command,org.unix4j.unix.head,HeadOptions.new HeadOptions() {...},10,7,0,0,4,3,4,3,4,3
+unix4j-command,org.unix4j.unix.head,HeadOptions.new ValueConverter() {...},15,9,2,0,2,2,2,1,1,1
+unix4j-command,org.unix4j.unix.head,HeadFactory,29,94,0,0,7,23,2,8,2,8
+unix4j-command,org.unix4j.unix.head,HeadOptions.Default,16,4,0,0,8,2,3,1,3,1
+unix4j-command,org.unix4j.unix.head,HeadCharsProcessor,0,63,1,7,0,12,1,5,0,2
+unix4j-command,org.unix4j.unix.head,HeadOptionSet_cq,21,187,1,9,5,16,6,7,5,3
+unix4j-command,org.unix4j.unix.uniq,UniqOptionSet_gu,23,143,3,7,5,14,8,5,5,3
+unix4j-command,org.unix4j.unix.uniq,UniqOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.uniq,UniqOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.uniq,UniqProcessor,0,12,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.uniq,UniqOptions.new UniqOptions() {...},12,5,0,0,5,2,5,2,5,2
+unix4j-command,org.unix4j.unix.uniq,UniqOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.uniq,UniqOptionSet_cg,23,143,3,7,5,14,8,5,5,3
+unix4j-command,org.unix4j.unix.uniq,AdjacentProcessor.UniqueDuplicateCount,0,58,0,4,0,15,0,5,0,3
+unix4j-command,org.unix4j.unix.uniq,UniqOptionSet_dg,23,143,3,7,5,14,8,5,5,3
+unix4j-command,org.unix4j.unix.uniq,GlobalProcessor,0,11,0,0,0,3,0,1,0,1
+unix4j-command,org.unix4j.unix.uniq,AdjacentProcessor.UniqueOnly,0,15,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.uniq,GlobalProcessor.UniqueDuplicateCount,0,97,0,4,0,20,0,6,0,4
+unix4j-command,org.unix4j.unix.uniq,CountUtil,1,44,1,1,0,6,1,2,0,2
+unix4j-command,org.unix4j.unix.uniq,GlobalProcessor.Normal,0,40,0,2,0,11,0,4,0,3
+unix4j-command,org.unix4j.unix.uniq,UniqOption,36,64,4,0,7,11,7,5,5,5
+unix4j-command,org.unix4j.unix.uniq,GlobalProcessor.UniqueOnly,0,15,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.uniq,AdjacentProcessor,0,9,0,0,0,3,0,1,0,1
+unix4j-command,org.unix4j.unix.uniq,UniqOptionSet_cdgu,27,121,4,4,6,17,9,4,5,4
+unix4j-command,org.unix4j.unix.uniq,UniqOptionSets,0,32,0,0,0,10,0,2,0,2
+unix4j-command,org.unix4j.unix.uniq,AdjacentProcessor.Count,0,17,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.uniq,GlobalProcessor.Count,0,15,0,0,0,4,0,2,0,2
+unix4j-command,org.unix4j.unix.uniq,UniqFactory,59,25,0,0,14,5,5,3,5,3
+unix4j-command,org.unix4j.unix.uniq,AdjacentProcessor.DuplicateOnly,0,15,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.uniq,UniqCommand,47,99,2,16,7,21,3,10,1,3
+unix4j-command,org.unix4j.unix.uniq,UniqArguments,406,224,50,22,70,52,42,18,11,13
+unix4j-command,org.unix4j.unix.uniq,GlobalProcessor.DuplicateOnly,0,15,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.uniq,AdjacentProcessor.Normal,0,30,0,4,0,9,0,5,0,3
+unix4j-command,org.unix4j.unix.from,FromFactory,60,94,0,0,12,19,4,7,4,7
+unix4j-command,org.unix4j.unix.from,FromCommand,22,54,2,4,2,11,2,3,0,2
+unix4j-command,org.unix4j.unix.from,FromCommand.new LineProcessor() {...},2,37,0,4,1,8,1,4,1,2
+unix4j-command,org.unix4j.unix.from,FromArguments,186,45,23,3,34,18,18,8,5,8
+unix4j-command,org.unix4j.unix,Grep,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Cd,0,3,0,0,0,1,0,1,0,1
+unix4j-command,org.unix4j.unix,Xargs,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Wc,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Sed,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Cut,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Head,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Find,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,From,0,3,0,0,0,1,0,1,0,1
+unix4j-command,org.unix4j.unix,Ls,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Sort,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Uniq,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Cat,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Tail,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix,Echo,0,5,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.cut,CutOptions.new CutOptions() {...},17,0,0,0,7,0,7,0,7,0
+unix4j-command,org.unix4j.unix.cut,CutOptions.new ValueConverter() {...},24,0,2,0,4,0,3,0,2,0
+unix4j-command,org.unix4j.unix.cut,CutOptionSet_cf,21,187,1,9,5,16,6,7,5,3
+unix4j-command,org.unix4j.unix.cut,CutOption,44,34,4,0,10,6,10,2,8,2
+unix4j-command,org.unix4j.unix.cut,CutArguments,671,107,81,7,111,39,55,17,11,17
+unix4j-command,org.unix4j.unix.cut,CutCommand.new LineProcessor() {...},5,152,1,17,1,26,1,13,0,5
+unix4j-command,org.unix4j.unix.cut,CutOptions.Default,20,0,0,0,10,0,4,0,4,0
+unix4j-command,org.unix4j.unix.cut,CutOptionSets,0,20,0,0,0,6,0,2,0,2
+unix4j-command,org.unix4j.unix.cut,CutOptions,9,0,0,0,2,0,1,0,1,0
+unix4j-command,org.unix4j.unix.cut,CutCommand,15,43,3,11,3,9,3,6,0,2
+unix4j-command,org.unix4j.unix.cut,CutFactory,61,50,0,0,15,12,4,4,4,4
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_Mbdfmru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bcdfgmru,27,2883,4,24,6,87,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bcdfmnru,27,2883,4,24,6,87,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_MVbdfghmnru,27,3297,4,24,6,93,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bcdfgru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortArguments,355,369,44,34,52,87,38,35,7,27
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_MVbcdfghnru,27,3297,4,24,6,93,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,SortCommand,12,174,3,19,3,38,3,13,0,5
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bcdfhru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bcdfhmru,27,2883,4,24,6,87,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_Mbcdfmru,27,2883,4,24,6,87,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,AbstractSortProcessor,4,77,1,13,1,20,1,9,0,3
+unix4j-command,org.unix4j.unix.sort,SortOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.sort,MergeProcessor,11,117,2,18,4,31,3,11,1,3
+unix4j-command,org.unix4j.unix.sort,SortFactory,100,59,0,0,25,13,7,6,7,6
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bdfhmru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSets,0,80,0,0,0,26,0,2,0,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_Vbcdfru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortCommand.new DefaultInputProcessor() {...},0,13,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bdfmnru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bdfgmru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_Mbcdfru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,UniqueSortProcessor,1,47,1,3,1,15,1,4,0,3
+unix4j-command,org.unix4j.unix.sort,CheckProcessor,0,45,0,4,0,12,0,6,0,4
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_Vbcdfmru,27,2883,4,24,6,87,9,14,5,4
+unix4j-command,org.unix4j.unix.sort,SortOptions.new SortOptions() {...},10,7,0,0,4,3,4,3,4,3
+unix4j-command,org.unix4j.unix.sort,SortOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_MVbcdfghmnru,13,3115,2,22,3,96,4,17,2,7
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_Vbdfmru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.sort,SortProcessor,1,54,1,3,1,14,1,4,0,3
+unix4j-command,org.unix4j.unix.sort,SortOption,36,152,4,0,7,19,7,5,5,5
+unix4j-command,org.unix4j.unix.sort,SortOptionSet_bcdfnru,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.wc,Counters,2,281,4,32,1,54,4,24,0,10
+unix4j-command,org.unix4j.unix.wc,WcOptions.new WcOptions() {...},12,5,0,0,5,2,5,2,5,2
+unix4j-command,org.unix4j.unix.wc,WcOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.wc,CounterType,0,34,0,0,0,4,0,1,0,1
+unix4j-command,org.unix4j.unix.wc,WcOptionSets,0,26,0,0,0,8,0,2,0,2
+unix4j-command,org.unix4j.unix.wc,WcFactory,26,46,0,0,6,10,2,5,2,5
+unix4j-command,org.unix4j.unix.wc,WcProcessor,0,30,0,0,0,9,0,3,0,3
+unix4j-command,org.unix4j.unix.wc,WcOption,36,53,4,0,7,10,7,5,5,5
+unix4j-command,org.unix4j.unix.wc,CounterType.new CounterType() {...},0,11,0,0,0,3,0,3,0,3
+unix4j-command,org.unix4j.unix.wc,CounterType.new CounterType() {...},0,12,0,0,0,3,0,3,0,3
+unix4j-command,org.unix4j.unix.wc,CounterType.new CounterType() {...},0,45,0,8,0,13,0,7,0,3
+unix4j-command,org.unix4j.unix.wc,WcOptionSet_lmw,21,429,1,13,5,26,6,9,5,3
+unix4j-command,org.unix4j.unix.wc,WcFileProcessor,2,38,1,1,0,10,1,3,0,3
+unix4j-command,org.unix4j.unix.wc,WcArguments,337,264,45,25,51,64,35,22,6,16
+unix4j-command,org.unix4j.unix.wc,WcCommand,5,73,1,7,1,15,1,6,0,3
+unix4j-command,org.unix4j.unix.wc,WcOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.wc,WcMultipleFilesProcessor,4,150,1,9,1,34,2,9,1,5
+unix4j-command,org.unix4j.unix.wc,WcOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.ls,LsOption,41,81,4,0,9,11,9,3,7,3
+unix4j-command,org.unix4j.unix.ls,LsOptions.Default,16,4,0,0,8,2,3,1,3,1
+unix4j-command,org.unix4j.unix.ls,FileComparators,0,39,0,0,0,7,0,5,0,5
+unix4j-command,org.unix4j.unix.ls,LsCommand.new LineProcessor() {...},2,36,0,0,1,4,1,2,1,2
+unix4j-command,org.unix4j.unix.ls,LsOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.ls,LsFormatterDirectoryHeader.new LsFormatter.Factory() {...},0,9,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.ls,LsOptions.new LsOptions() {...},10,7,0,0,4,3,4,3,4,3
+unix4j-command,org.unix4j.unix.ls,LsOptions.new ValueConverter() {...},15,9,2,0,2,2,2,1,1,1
+unix4j-command,org.unix4j.unix.ls,LsFormatterDirectoryHeader,4,97,3,13,2,18,3,8,0,3
+unix4j-command,org.unix4j.unix.ls,LsOptionSet_Rahlrt,9,4807,1,25,2,147,3,18,2,6
+unix4j-command,org.unix4j.unix.ls,LsFactory,12,60,0,0,3,13,1,6,1,6
+unix4j-command,org.unix4j.unix.ls,LsCommand,4,309,6,66,2,56,6,36,0,6
+unix4j-command,org.unix4j.unix.ls,LsFormatterShort,0,16,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.ls,LsOptionSets,0,44,0,0,0,14,0,2,0,2
+unix4j-command,org.unix4j.unix.ls,LsArguments,263,353,33,37,38,80,29,31,4,21
+unix4j-command,org.unix4j.unix.ls,FileComparators.new Comparator() {...},0,23,0,4,0,4,0,4,0,2
+unix4j-command,org.unix4j.unix.ls,FileComparators.new Comparator() {...},4,54,2,10,0,16,2,6,0,2
+unix4j-command,org.unix4j.unix.ls,FileComparators.new Comparator() {...},0,20,0,0,0,4,0,2,0,2
+unix4j-command,org.unix4j.unix.ls,FileComparators.new Comparator() {...},6,3,0,0,1,1,1,1,1,1
+unix4j-command,org.unix4j.unix.ls,FileComparators.new Comparator() {...},18,32,8,10,4,10,6,5,0,2
+unix4j-command,org.unix4j.unix.ls,LsFormatterLong,129,157,21,1,12,24,17,5,6,5
+unix4j-command,org.unix4j.unix.ls,LsFormatterLong.new ThreadLocal() {...},0,8,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.ls,LsFormatterLong.new ThreadLocal() {...},3,6,0,0,1,1,1,1,1,1
+unix4j-command,org.unix4j.unix.ls,LsFormatterLong.new LsFormatter.Factory() {...},0,51,1,5,0,12,1,5,0,3
+unix4j-command,org.unix4j.unix.ls,LsFormatterLong7,50,146,6,16,11,24,6,11,0,6
+unix4j-command,org.unix4j.unix.xargs,XargsOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.xargs,XargsOption,44,56,4,0,10,8,10,2,8,2
+unix4j-command,org.unix4j.unix.xargs,XargsOptions.new ValueConverter() {...},15,9,2,0,2,2,2,1,1,1
+unix4j-command,org.unix4j.unix.xargs,XargsOptions.new XargsOptions() {...},10,7,0,0,4,3,4,3,4,3
+unix4j-command,org.unix4j.unix.xargs,WhitespaceItemizer,0,66,0,12,0,21,0,9,0,3
+unix4j-command,org.unix4j.unix.xargs,XargsOptions.Default,20,0,0,0,10,0,4,0,4,0
+unix4j-command,org.unix4j.unix.xargs,XargsArguments,722,92,80,10,127,31,65,11,20,11
+unix4j-command,org.unix4j.unix.xargs,DefaultItemStorage,22,171,13,21,3,40,10,13,0,6
+unix4j-command,org.unix4j.unix.xargs,XargsOptionSet_rtxz,26,962,1,17,6,43,7,10,6,2
+unix4j-command,org.unix4j.unix.xargs,XargsFactory,256,26,0,0,65,6,17,3,17,3
+unix4j-command,org.unix4j.unix.xargs,XargsCommand,0,64,0,4,0,9,0,8,0,6
+unix4j-command,org.unix4j.unix.xargs,CharDelimitedItemizer,0,109,2,12,0,28,2,8,0,3
+unix4j-command,org.unix4j.unix.xargs,XargsLineProcessor,36,89,4,2,5,23,3,8,0,8
+unix4j-command,org.unix4j.unix.xargs,XargsOptionSets,0,32,0,0,0,10,0,2,0,2
+unix4j-command,org.unix4j.unix.xargs,XargsOutput,0,16,0,0,0,7,0,4,0,4
+unix4j-command,org.unix4j.unix.tail,TailFactory,29,94,0,0,7,23,2,8,2,8
+unix4j-command,org.unix4j.unix.tail,TailCommand,0,140,1,17,0,25,1,12,0,4
+unix4j-command,org.unix4j.unix.tail,TailOptionSet_cqs,21,429,1,13,5,26,6,9,5,3
+unix4j-command,org.unix4j.unix.tail,TailCharsFromStartProcessor,0,73,0,4,0,18,0,6,0,4
+unix4j-command,org.unix4j.unix.tail,AbstractTailProcessor,0,19,0,2,0,4,0,2,0,1
+unix4j-command,org.unix4j.unix.tail,TailLinesFromStartProcessor,0,35,0,2,0,11,0,5,0,4
+unix4j-command,org.unix4j.unix.tail,TailOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.tail,TailOptionSets,0,26,0,0,0,8,0,2,0,2
+unix4j-command,org.unix4j.unix.tail,TailOption,36,53,4,0,7,10,7,5,5,5
+unix4j-command,org.unix4j.unix.tail,TailOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.tail,TailCommand.new DefaultInputProcessor() {...},2,67,1,3,0,11,1,4,0,3
+unix4j-command,org.unix4j.unix.tail,TailOptions.new TailOptions() {...},10,7,0,0,4,3,4,3,4,3
+unix4j-command,org.unix4j.unix.tail,TailLinesFromEndProcessor,0,61,0,6,0,17,0,7,0,4
+unix4j-command,org.unix4j.unix.tail,TailOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.tail,TailCharsFromEndProcessor,4,135,2,10,0,28,2,8,0,4
+unix4j-command,org.unix4j.unix.tail,TailArguments,322,359,41,37,43,87,36,28,4,21
+unix4j-command,org.unix4j.unix.cd,CdCommand.new JoinedCommand() {...},25,70,2,6,2,15,2,5,0,3
+unix4j-command,org.unix4j.unix.cd,CdArguments,139,92,18,8,20,32,14,12,2,11
+unix4j-command,org.unix4j.unix.cd,CdFactory,0,38,0,0,0,9,0,4,0,4
+unix4j-command,org.unix4j.unix.cd,CdCommand,0,17,0,0,0,5,0,4,0,4
+unix4j-command,org.unix4j.unix.find,FindOptions.Default,20,0,0,0,10,0,4,0,4,0
+unix4j-command,org.unix4j.unix.find,FindOptionSet_cfinorz,25,2999,5,25,5,84,10,13,5,3
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeType.new TimeFilter.TimeType() {...},0,11,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeType.new TimeFilter.TimeType() {...},0,11,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeType.new TimeFilter.TimeType() {...},4,7,0,0,1,1,1,1,1,1
+unix4j-command,org.unix4j.unix.find,FindOptionSet_cinorxz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeComparator,0,37,0,0,0,7,0,3,0,3
+unix4j-command,org.unix4j.unix.find,FindOptionSet_acdimnorz,27,3021,4,24,6,89,9,14,5,4
+unix4j-command,org.unix4j.unix.find,FindOptionSet_cdinorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_imnorxz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_ailnorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,TimeFilter,0,35,0,0,0,10,0,3,0,3
+unix4j-command,org.unix4j.unix.find,SizeFilter.SizeComparator.new SizeFilter.SizeComparator() {...},0,15,0,2,0,2,0,3,0,2
+unix4j-command,org.unix4j.unix.find,SizeFilter.SizeComparator.new SizeFilter.SizeComparator() {...},0,15,0,2,0,2,0,3,0,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_fimnorz,25,2999,5,25,5,84,10,13,5,3
+unix4j-command,org.unix4j.unix.find,FindOption,44,144,4,0,10,16,10,2,8,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_dfilmnorxz,32,3154,4,24,7,90,10,13,6,3
+unix4j-command,org.unix4j.unix.find,OptionableUtil,28,28,4,4,4,4,3,3,1,1
+unix4j-command,org.unix4j.unix.find,FindOptionSet_afinorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,NameFilter,0,24,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.find,FileAttributes,33,11,6,0,7,3,10,2,7,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_adfilnorxz,32,3154,4,24,7,90,10,13,6,3
+unix4j-command,org.unix4j.unix.find,FindFactory,201,99,0,0,51,25,13,7,13,7
+unix4j-command,org.unix4j.unix.find,FindCommand,19,210,6,26,5,41,6,17,0,7
+unix4j-command,org.unix4j.unix.find,FindOptions.new ValueConverter() {...},15,9,2,0,2,2,2,1,1,1
+unix4j-command,org.unix4j.unix.find,FindOptions.new FindOptions() {...},12,5,0,0,5,2,5,2,5,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_cilnorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,TypeFilter,0,65,0,0,0,10,0,4,0,4
+unix4j-command,org.unix4j.unix.find,FindCommand.new LineProcessor() {...},31,97,3,7,4,18,4,5,1,3
+unix4j-command,org.unix4j.unix.find,FindOptionSet_acfimnorz,27,3021,4,24,6,89,9,14,5,4
+unix4j-command,org.unix4j.unix.find,FindOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.find,CompositeFileFilter,0,62,0,10,0,18,0,10,0,5
+unix4j-command,org.unix4j.unix.find,RegexFilter.new FileFilter() {...},0,21,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.find,SizeFilter.SizeComparator,0,24,0,0,0,3,0,1,0,1
+unix4j-command,org.unix4j.unix.find,FindArguments,719,133,83,7,123,43,65,19,20,19
+unix4j-command,org.unix4j.unix.find,RegexFilter,0,28,0,2,0,7,0,4,0,3
+unix4j-command,org.unix4j.unix.find,FileAttributes7,55,52,10,4,8,11,10,6,3,6
+unix4j-command,org.unix4j.unix.find,FindOptionSet_dimnorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,TypeFilter.new TypeFilter() {...},4,7,0,0,1,1,1,1,1,1
+unix4j-command,org.unix4j.unix.find,TypeFilter.new TypeFilter() {...},4,7,0,0,1,1,1,1,1,1
+unix4j-command,org.unix4j.unix.find,TypeFilter.new TypeFilter() {...},0,11,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.find,TypeFilter.new TypeFilter() {...},0,11,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_acimnorxz,32,3016,4,24,7,88,10,13,6,3
+unix4j-command,org.unix4j.unix.find,FindOptionSet_acdfilmnorxz,25,3103,2,22,6,93,7,14,5,4
+unix4j-command,org.unix4j.unix.find,FindOptionSet_cdfilnorxz,32,3154,4,24,7,90,10,13,6,3
+unix4j-command,org.unix4j.unix.find,FindOptionSet_adinorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,CompositeFileFilter.new FileFilter() {...},0,8,0,0,0,2,0,2,0,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_ilmnorz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,FindOptionSets,0,80,0,0,0,26,0,2,0,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_acilmnorz,32,3016,4,24,7,88,10,13,6,3
+unix4j-command,org.unix4j.unix.find,SizeFilter,0,28,0,2,0,7,0,4,0,3
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeComparator.new TimeFilter.TimeComparator() {...},0,18,0,2,0,2,0,3,0,2
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeComparator.new TimeFilter.TimeComparator() {...},0,18,0,2,0,2,0,3,0,2
+unix4j-command,org.unix4j.unix.find,FindOptionSet_ainorxz,30,2994,5,25,6,83,11,12,6,2
+unix4j-command,org.unix4j.unix.find,TimeFilter.TimeType,0,48,0,0,0,8,0,3,0,3
+unix4j-command,org.unix4j.unix.grep,GrepOptions.Default,10,10,0,0,5,5,2,2,2,2
+unix4j-command,org.unix4j.unix.grep,RegexpMatcher,5,53,1,7,1,12,1,5,0,2
+unix4j-command,org.unix4j.unix.grep,WriteFilesWithMatchingLinesProcessor,71,0,8,0,20,0,10,0,6,0
+unix4j-command,org.unix4j.unix.grep,GrepOptions.new ValueConverter() {...},2,22,1,1,0,4,1,2,0,2
+unix4j-command,org.unix4j.unix.grep,GrepOptions.new GrepOptions() {...},10,7,0,0,4,3,4,3,4,3
+unix4j-command,org.unix4j.unix.grep,CountMatchingLinesInputProcessor,2,81,1,3,0,18,1,7,0,6
+unix4j-command,org.unix4j.unix.grep,AbstractGrepProcessor,0,23,0,0,0,7,0,3,0,3
+unix4j-command,org.unix4j.unix.grep,InvertedMatcher,0,15,0,2,0,4,0,3,0,2
+unix4j-command,org.unix4j.unix.grep,WriteMatchingLinesProcessor,0,16,0,2,0,5,0,3,0,2
+unix4j-command,org.unix4j.unix.grep,GrepOptionSet_Fcilnvx,21,10565,1,29,5,274,6,17,5,3
+unix4j-command,org.unix4j.unix.grep,FixedStringMatcher.Standard,0,11,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.grep,WriteMatchingLinesInputProcessor,2,71,1,3,0,16,1,5,0,4
+unix4j-command,org.unix4j.unix.grep,FixedStringMatcher,0,6,0,0,0,3,0,1,0,1
+unix4j-command,org.unix4j.unix.grep,FixedStringMatcher.IgnoreCase,0,11,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.grep,GrepArguments,370,435,45,43,52,103,39,38,5,28
+unix4j-command,org.unix4j.unix.grep,WriteMatchingLinesWithLineNumberProcessor,0,42,0,2,0,8,0,3,0,2
+unix4j-command,org.unix4j.unix.grep,CountMatchingLinesProcessor,0,37,0,2,0,10,0,4,0,3
+unix4j-command,org.unix4j.unix.grep,GrepCommand,58,292,5,30,8,51,5,20,0,7
+unix4j-command,org.unix4j.unix.grep,FixedStringMatcher.WholeLineIgnoreCase,11,0,0,0,3,0,2,0,2,0
+unix4j-command,org.unix4j.unix.grep,FixedStringMatcher.WholeLine,0,11,0,0,0,3,0,2,0,2
+unix4j-command,org.unix4j.unix.grep,GrepOptions,0,9,0,0,0,2,0,1,0,1
+unix4j-command,org.unix4j.unix.grep,GrepFactory,45,129,0,0,11,32,3,10,3,10
+unix4j-command,org.unix4j.unix.grep,GrepOption,26,107,4,0,4,17,4,8,2,8
+unix4j-command,org.unix4j.unix.grep,GrepOptionSets,0,50,0,0,0,16,0,2,0,2
+unix4j-command,org.unix4j,Unix4j,364,64,0,0,72,15,72,15,72,15

@@ -1,0 +1,67 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+
+Let's start step by step. First, this test code provided contains a test smell known as "Assertion Roulette", which occurs when a test method has multiple non-documented assertions. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves adding a comment to each assertion so that anyone can understand what each assertion is testing. 
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+public class TestSwitch {
+    @Test
+    public void testNameChange() {
+        CpSwitch spine1 = new CpSwitch("Spine1");
+        CpSwitch leaf1 = new CpSwitch("Leaf1");
+        
+        String newName = "New_Name_2";
+        
+        CpLink link1 = new CpLink(spine1, "Eth1/3", leaf1, "Eth1/1");
+        
+        assertEquals("(Leaf1-Eth1/1,Spine1-Eth1/3)", link1.getName());  
+        
+        assertEquals("Spine1", spine1.getName());  
+        
+        spine1.setName(newName);
+        
+        
+        assertEquals("(Leaf1-Eth1/1," + newName + "-Eth1/3)", link1.getName());  
+        
+        assertEquals(newName, spine1.getName()); 
+    }
+}
+```
+<Refactored test code>
+```
+public class TestSwitch {
+
+    @Test
+    public void testNameChange() {
+        CpSwitch spine1 = new CpSwitch("Spine1");
+        CpSwitch leaf1 = new CpSwitch("Leaf1");
+        
+        String newName = "New_Name_2";
+        
+        CpLink link1 = new CpLink(spine1, "Eth1/3", leaf1, "Eth1/1");
+        
+        assertEquals("(Leaf1-Eth1/1,Spine1-Eth1/3)", link1.getName(), "Link name should be correctly initialized");  
+        
+        assertEquals("Spine1", spine1.getName(), "Spine name should be correctly initialized");  
+        
+        spine1.setName(newName);
+        
+        
+        assertEquals("(Leaf1-Eth1/1," + newName + "-Eth1/3)", link1.getName(), "Link name should be updated after spine name change");  
+        
+        assertEquals(newName, spine1.getName(), "Spine name should be updated");  // Ensures spine1 name change
+    }
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+```
+{test_code_with_smell_here}
+```

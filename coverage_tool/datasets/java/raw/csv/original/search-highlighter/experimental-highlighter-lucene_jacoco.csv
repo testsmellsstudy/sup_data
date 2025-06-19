@@ -1,0 +1,20 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher.FlattenerCallback,304,0,26,0,61,0,21,0,8,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher.HashMapTermInfos,22,0,0,0,5,0,3,0,3,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher.PhraseInfo,60,0,6,0,13,0,5,0,2,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher.SourceInfo,3,0,0,0,1,0,1,0,1,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,DefaultSimilarityTermWeigher,42,0,0,0,9,0,2,0,2,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher,263,0,40,0,56,0,32,0,12,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher.PhraseKey,65,0,10,0,18,0,8,0,3,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit.weight,BasicQueryWeigher.AutomatonSourceInfo,29,0,2,0,6,0,3,0,2,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit,PostingsHitEnum,65,179,6,15,17,45,10,14,4,9
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit,AutomatonHitEnum.Factory,0,86,0,4,0,15,0,5,0,3
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit,AutomatonHitEnum.Forward,4,78,0,4,1,13,1,4,1,2
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit,TokenStreamHitEnum,21,88,0,2,7,23,3,6,3,5
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit,AutomatonHitEnum.TwoPass,5,78,1,5,1,15,1,4,0,2
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.hit,AutomatonHitEnum,12,130,0,14,4,33,4,14,4,7
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene,QueryFlattener.FuzzyQueryInfo,53,45,14,0,11,7,8,2,1,2
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene,WrappedExceptionFromLucene,4,0,0,0,2,0,1,0,1,0
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene,QueryFlattener,419,638,64,70,78,133,58,39,11,19
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.automaton,AcceptReturningReverseRunAutomaton,13,75,5,9,2,20,4,8,0,5
+Lucene backed implementations of interfaces for experimental highlighter,org.wikimedia.highlighter.experimental.lucene.automaton,OffsetReturningRunAutomaton,0,50,0,8,0,12,0,6,0,2

@@ -1,0 +1,9 @@
+## Python Version = 3.7.15 ##
+python3 -m venv venv
+source venv/bin/activate
+pip install steamodd setuptools
+python setup.py install
+python3 -m pip install coverage
+
+pip install pytest pytest-reportlog pytest-cov
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log steamodd.log

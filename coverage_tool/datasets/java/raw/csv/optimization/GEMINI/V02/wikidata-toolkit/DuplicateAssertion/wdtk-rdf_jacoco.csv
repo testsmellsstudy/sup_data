@@ -1,0 +1,21 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,AnyValueConverter,18,118,0,0,2,23,2,8,2,8
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,GlobeCoordinatesValueConverter,42,130,2,4,8,33,2,5,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,EntityIdValueConverter,9,32,2,2,3,8,2,2,0,2
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,QuantityValueConverter,21,92,3,7,5,23,3,5,0,3
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,MonolingualTextValueConverter,9,31,2,2,3,8,2,2,0,2
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,TimeValueConverter,15,140,5,5,3,27,4,5,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,StringValueConverter,75,41,11,4,17,12,10,3,2,2
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,AbstractValueConverter,22,17,0,0,2,7,1,3,1,3
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf.values,BufferedValueConverter,0,70,0,4,0,18,0,5,0,3
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,ReferenceRdfConverter,0,124,1,7,0,30,1,7,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,PropertyContext,0,104,0,0,0,2,0,1,0,1
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,SnakRdfConverter,147,177,10,20,35,45,13,14,4,7
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RdfConverter,51,904,15,53,16,221,17,41,2,21
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RankBuffer,11,39,2,4,3,11,2,5,0,4
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RdfWriter,3,350,0,0,1,135,1,18,1,18
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,PropertyRegister,62,319,8,25,16,73,8,23,0,14
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,Vocabulary,12,595,2,21,5,114,3,26,1,12
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,OwlDeclarationBuffer,83,307,24,18,20,65,21,8,3,5
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,SnakRdfConverter.PropertyRestriction,15,0,0,0,5,0,1,0,1,0
+Wikidata Toolkit RDF,org.wikidata.wdtk.rdf,RdfSerializer,59,52,0,0,17,19,4,5,4,5

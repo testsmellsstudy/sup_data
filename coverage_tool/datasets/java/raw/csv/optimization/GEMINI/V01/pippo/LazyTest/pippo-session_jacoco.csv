@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Pippo Session,ro.pippo.session,SessionRequestResponseFactory,44,0,0,0,8,0,3,0,3,0
+Pippo Session,ro.pippo.session,EncryptedSessionDataTranscoder.Builder,22,47,4,4,7,11,7,3,3,3
+Pippo Session,ro.pippo.session,SessionHttpServletRequest.new PippoHttpSession() {...},20,0,0,0,4,0,2,0,2,0
+Pippo Session,ro.pippo.session,PippoHttpSession,171,0,12,0,51,0,31,0,25,0
+Pippo Session,ro.pippo.session,EncryptedSessionDataTranscoder,13,79,1,1,4,18,1,5,0,5
+Pippo Session,ro.pippo.session,SessionManager,28,0,0,0,10,0,5,0,5,0
+Pippo Session,ro.pippo.session,MemorySessionDataStorage,49,0,4,0,16,0,7,0,5,0
+Pippo Session,ro.pippo.session,BaseEncryptor,0,62,0,0,0,13,0,3,0,3
+Pippo Session,ro.pippo.session,DefaultEncryptor,0,4,0,0,0,2,0,1,0,1
+Pippo Session,ro.pippo.session,CookieSessionStrategy,68,0,2,0,17,0,7,0,6,0
+Pippo Session,ro.pippo.session,SessionHttpServletRequest,166,0,28,0,41,0,25,0,11,0
+Pippo Session,ro.pippo.session,SerializationSessionDataTranscoder,15,52,0,0,4,10,0,3,0,3
+Pippo Session,ro.pippo.session,DefaultSessionData,115,55,11,1,21,15,18,6,12,6

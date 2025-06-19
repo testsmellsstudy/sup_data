@@ -1,0 +1,11 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Exception Handling":
+A test method that contains either a throw statement or a try-catch clause.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}

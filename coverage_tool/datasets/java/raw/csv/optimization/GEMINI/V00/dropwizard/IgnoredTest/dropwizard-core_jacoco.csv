@@ -1,0 +1,27 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard,io.dropwizard.cli,Cli.SafeHelpAction,0,18,0,0,0,7,0,4,0,4
+Dropwizard,io.dropwizard.cli,ConfiguredCommand,0,106,0,8,0,33,0,12,0,8
+Dropwizard,io.dropwizard.cli,Cli,0,307,0,10,0,58,0,14,0,9
+Dropwizard,io.dropwizard.cli,ServerCommand.LifeCycleListener,0,10,0,0,0,3,0,2,0,2
+Dropwizard,io.dropwizard.cli,CheckCommand,0,26,0,0,0,9,0,5,0,5
+Dropwizard,io.dropwizard.cli,EnvironmentCommand,0,52,0,0,0,16,0,2,0,2
+Dropwizard,io.dropwizard.cli,Command,0,20,0,0,0,8,0,4,0,4
+Dropwizard,io.dropwizard.cli,ServerCommand,8,56,0,0,4,20,0,5,0,5
+Dropwizard,io.dropwizard.validation,GetResourceContextFeature,13,0,0,0,5,0,2,0,2,0
+Dropwizard,io.dropwizard.validation,InjectValidatorBundle,25,15,3,1,9,7,4,2,2,2
+Dropwizard,io.dropwizard,Configuration,22,42,0,2,1,14,1,8,1,7
+Dropwizard,io.dropwizard,Bundle,1,4,0,0,1,2,1,1,1,1
+Dropwizard,io.dropwizard,Application,3,66,0,2,2,20,1,9,1,8
+Dropwizard,io.dropwizard,ConfiguredBundle,2,0,0,0,2,0,2,0,2,0
+Dropwizard,io.dropwizard.sslreload,SslReloadTask,49,0,4,0,14,0,6,0,4,0
+Dropwizard,io.dropwizard.sslreload,SslReloadBundle,31,0,0,0,7,0,4,0,4,0
+Dropwizard,io.dropwizard.sslreload,SslReloadBundle.new AbstractLifeCycle.AbstractLifeCycleListener() {...},43,0,0,0,7,0,2,0,2,0
+Dropwizard,io.dropwizard.setup,ExceptionMapperBinder,0,61,0,0,0,12,0,3,0,3
+Dropwizard,io.dropwizard.setup,Bootstrap,11,203,1,3,5,54,3,21,2,20
+Dropwizard,io.dropwizard.setup,ExceptionMapperBinder.new LoggingExceptionMapper() {...},0,6,0,0,0,1,0,1,0,1
+Dropwizard,io.dropwizard.setup,AdminEnvironment,0,145,1,5,0,25,1,8,0,6
+Dropwizard,io.dropwizard.setup,Environment,21,163,0,0,7,44,4,13,4,13
+Dropwizard,io.dropwizard.setup,AdminEnvironment.new AbstractLifeCycle.AbstractLifeCycleListener() {...},0,13,0,0,0,4,0,2,0,2
+Dropwizard,io.dropwizard.server,AbstractServerFactory,105,521,20,22,24,153,18,58,0,55
+Dropwizard,io.dropwizard.server,DefaultServerFactory,41,291,1,9,1,79,2,23,1,19
+Dropwizard,io.dropwizard.server,SimpleServerFactory,0,144,0,0,0,44,0,10,0,10

@@ -1,0 +1,52 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Java. You will be provided with a test code in Java and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Mystery Guest: Occurs when a test method utilizes external resources (e.g. files, database, etc.).
+Follow the steps below to refactor Mystery Guest:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework is being used;
+<Step 3> Locate where the Mystery Guest occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Mystery Guest. You can modify the test method as you wish, but keep in mind that you should maintain the main idea of the test code.
+<Step 5> Give me only the test code you refactored.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+public void testPersistence() throws Exception {
+    File tempFile = File.createTempFile("systemstate-", ".txt");
+    try {
+        SystemState a = new SystemState(then, 27, false, bootTimestamp);
+        a.addInstalledApp("a.b.c", "ABC", "1.2.3");
+
+        a.writeToFile(tempFile);
+        SystemState b = SystemState.readFromFile(tempFile);
+
+        assertEquals(a, b);
+    } finally {
+        //noinspection ConstantConditions
+        if (tempFile != null) {
+            //noinspection ResultOfMethodCallIgnored
+            tempFile.delete();
+        }
+    }
+}####
+<Refactored test code>
+####
+@Test
+public void testPersistence_MockedFile() throws Exception {
+  File mockFile = Mockito.mock(File.class);
+  Mockito.when(mockFile.createNewFile()).thenReturn(true);
+  SystemState a = new SystemState(then, 27, false, bootTimestamp);
+  a.addInstalledApp("a.b.c", "ABC", "1.2.3");
+  a.writeToFile(mockFile);
+  SystemState b = SystemState.readFromFile(mockFile);
+
+  assertEquals(a, b);
+  Mockito.verify(mockFile).createNewFile();
+}
+####
+
+---USERCONTENT---Refactor the code:\n

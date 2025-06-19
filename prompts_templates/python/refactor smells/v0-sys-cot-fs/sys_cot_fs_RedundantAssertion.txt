@@ -1,0 +1,54 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Python. You will be provided with a test code in Python and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Redundant Assertion: Occurs when a test case contains assertion statements that are either always true or always false, and are therefore unnecessary.
+Follow the steps below to refactor the Redundant Assertion:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework its been used;
+<Step 3> Locate where Redundant Assertion occours;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Redundant Assertion. You can modify the test method as you wish but keep in mind that you should maintain the main idea of the test code. For this smell, if no other assertion is in test method, you can delete the entiry test method.
+<Step 5> Give me only the test code you refactored.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+class BasicPropertiesTests(unittest.TestCase):
+    def test_equality(self):
+        a = spec.BasicProperties(content_type='text/plain')
+        self.assertEqual(a, a)
+        self.assertNotEqual(a, None)
+
+        b = spec.BasicProperties()
+        self.assertNotEqual(a, b)
+        b.content_type = 'text/plain'
+        self.assertEqual(a, b)
+
+        a.correlation_id = 'abc123'
+        self.assertNotEqual(a, b)
+
+        b.correlation_id = 'abc123'
+        self.assertEqual(a, b)
+####
+<Refactored test code>
+####
+class BasicPropertiesTests(unittest.TestCase):
+    def test_equality(self):
+        a = spec.BasicProperties(content_type='text/plain')
+        self.assertNotEqual(a, None)
+
+        b = spec.BasicProperties()
+        self.assertNotEqual(a, b)
+        b.content_type = 'text/plain'
+        self.assertEqual(a, b)
+
+        a.correlation_id = 'abc123'
+        self.assertNotEqual(a, b)
+
+        b.correlation_id = 'abc123'
+        self.assertEqual(a, b)
+####
+
+---USERCONTENT---Refactor the code:\n

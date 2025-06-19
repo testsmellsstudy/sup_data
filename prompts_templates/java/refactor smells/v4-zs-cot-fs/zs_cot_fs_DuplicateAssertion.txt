@@ -1,0 +1,47 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Duplicate Assert", which occurs when a test method contains more than one assertion statement with the same parameters. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves understanding why these assertions are being called on multiple lines, and replacing the variable assignments used with more descriptive names suitable for this test code.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+public class SubpageTestCase {
+
+    @Test
+    public void testChecksum() {
+        Subpage p = new Subpage();
+        assertEquals(57917, p.checksum);
+
+        p = new Subpage(true);
+        assertEquals(57917, p.checksum);
+    }
+}
+```
+<Refactored test code>
+```
+public class SubpageTestCase {
+
+    @Test
+    public void testChecksum() {
+        Subpage p1 = new Subpage();
+        Subpage p2 = new Subpage(true);
+
+        assertEquals(57917, p1.checksum);
+        assertEquals(57917, p2.checksum);
+    }
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```
+
+
+

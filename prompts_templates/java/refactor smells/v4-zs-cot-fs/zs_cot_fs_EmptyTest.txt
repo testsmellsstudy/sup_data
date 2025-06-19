@@ -1,0 +1,34 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Empty Test", which occurs when a test case does not contain a single executable statement. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves deleting this test method or comment the test code, because this test method is useless.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+@Test
+public void testCredGetFullSampleV1() {
+    Credentials credentials = innerCredTest(FULL_SAMPLE_v1);
+    // assertEquals("p4ssw0rd", credentials.getPass());
+    // assertEquals("user@example.com", credentials.getUser());
+}
+```
+<Refactored test code>
+```
+// @Test
+// public void testCredGetFullSampleV1() {
+    Credentials credentials = innerCredTest(FULL_SAMPLE_v1);
+    // assertEquals("p4ssw0rd", credentials.getPass());
+    // assertEquals("user@example.com", credentials.getUser());
+// }
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```

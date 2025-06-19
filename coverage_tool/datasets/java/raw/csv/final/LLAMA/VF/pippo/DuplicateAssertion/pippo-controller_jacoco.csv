@@ -1,0 +1,23 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Pippo Controller,ro.pippo.controller.util,ClassUtils,253,342,31,27,49,66,25,24,4,16
+Pippo Controller,ro.pippo.controller.util,ControllerUtils,159,42,24,2,31,11,17,3,4,3
+Pippo Controller,ro.pippo.controller,NameTransformer,48,4,4,0,10,1,4,1,2,1
+Pippo Controller,ro.pippo.controller,ControllerInvokeListenerList.new ListenerList.Notifier() {...},19,0,0,0,3,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,ControllerInstantiationListenerList.new ListenerList.Notifier() {...},14,0,0,0,3,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,SingletonControllerFactory,67,4,6,0,17,1,7,1,4,1
+Pippo Controller,ro.pippo.controller,ControllerInvokeListenerList,12,0,0,0,3,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,DefaultControllerFactory,21,0,0,0,4,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,MethodParameter,131,0,12,0,32,0,15,0,9,0
+Pippo Controller,ro.pippo.controller,ControllerInitializationListenerList,11,0,0,0,3,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,Controller,23,3,0,0,6,1,6,1,6,1
+Pippo Controller,ro.pippo.controller,ControllerApplication,137,7,10,0,38,3,17,2,12,2
+Pippo Controller,ro.pippo.controller,ControllerRegistry,13,596,5,47,3,122,4,38,0,16
+Pippo Controller,ro.pippo.controller,ControllerInstantiationListenerList,11,0,0,0,3,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,ControllerInitializationListenerList.new ListenerList.Notifier() {...},14,0,0,0,3,0,2,0,2,0
+Pippo Controller,ro.pippo.controller,ControllerHandler,816,135,90,4,177,37,60,7,13,7
+Pippo Controller,ro.pippo.controller.extractor,HeaderExtractor,90,0,6,0,19,0,7,0,4,0
+Pippo Controller,ro.pippo.controller.extractor,ParamExtractor,79,0,6,0,19,0,7,0,4,0
+Pippo Controller,ro.pippo.controller.extractor,BeanExtractor,14,0,0,0,4,0,3,0,3,0
+Pippo Controller,ro.pippo.controller.extractor,BodyExtractor,24,0,2,0,7,0,4,0,3,0
+Pippo Controller,ro.pippo.controller.extractor,SessionExtractor,53,0,4,0,12,0,6,0,4,0
+Pippo Controller,ro.pippo.controller.extractor,FileItemExtractor,19,0,2,0,4,0,4,0,3,0

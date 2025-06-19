@@ -1,0 +1,104 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Python. You will be provided with a test code in Python and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Test Maverick: This smell occurs when a test case in a test suite does not use fixture in setup. In this case, this test case is a Test Maverick.
+Follow the steps below to refactor the Lack of Test Maverick:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework its been used;
+<Step 3> Locate where the test smell Test Maverick occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate this test smell. You can modify the test methods as you wish but keep in mind that you should maintain the main idea of the test code. 
+<Step 5> Give me only the test code you refactored.
+
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+class ActorManagerTests(unittest.TestCase):
+
+    def setUp(self):
+        n = DummyNode()
+        self.am = ActorManager(node=n)
+        n.am = self.am
+        n.pm.remove_ports_of_actor = Mock(return_value = [])
+
+    @patch('calvin.runtime.north.storage.Storage.delete_actor')
+    def test_destroy_actor(self, delete_actor):
+        actor, actor_id = self._new_actor('std.Constantify', {'constant': 42})
+        self.am.destroy(actor_id)
+
+    def _new_actor(self, a_type, a_args, **kwargs):
+        a_id = self.am.new(a_type, a_args, **kwargs)
+        a = self.am.actors.get(a_id, None)
+        self.assertTrue(a)
+        return a, a_id
+
+    def test_enable_actor(self):
+        actor, actor_id = self._new_actor('std.Constantify', {'constant': 42})
+
+        actor.enable = Mock()
+        self.am.enable(actor_id)
+        assert actor.enable.called
+
+    def test_disable_actor(self):
+        actor, actor_id = self._new_actor('std.Constantify', {'constant': 42})
+
+        actor.disable = Mock()
+        self.am.disable(actor_id)
+        assert actor.disable.called
+
+    def test_new_actor(self):
+        # Test basic actor creation
+        a_type = 'std.Constantify'
+        constant = 42
+        a, _ = self._new_actor(a_type, {'constant':constant})
+        self.assertEqual(a.constant, constant)
+####
+<Refactored test code>
+####
+ class ActorManagerTests(unittest.TestCase):
+
+    def setUp(self):
+        n = DummyNode()
+        self.am = ActorManager(node=n)
+        n.am = self.am
+        n.pm.remove_ports_of_actor = Mock(return_value = [])
+
+    @patch('calvin.runtime.north.storage.Storage.delete_actor')
+    def test_destroy_actor(self, delete_actor):
+        actor, actor_id = self._new_actor('std.Constantify', {'constant': 42})
+        self.am.destroy(actor_id)
+
+    def _new_actor(self, a_type, a_args, **kwargs):
+        a_id = self.am.new(a_type, a_args, **kwargs)
+        a = self.am.actors.get(a_id, None)
+        self.assertTrue(a)
+        return a, a_id
+
+    def test_enable_actor(self):
+        actor, actor_id = self._new_actor('std.Constantify', {'constant': 42})
+
+        actor.enable = Mock()
+        self.am.enable(actor_id)
+        assert actor.enable.called
+
+    def test_disable_actor(self):
+        actor, actor_id = self._new_actor('std.Constantify', {'constant': 42})
+
+        actor.disable = Mock()
+        self.am.disable(actor_id)
+        assert actor.disable.called
+
+
+class ActorManagerOthersTest(unittest.TestCase):
+    def test_new_actor(self):
+        # Test basic actor creation
+        a_type = 'std.Constantify'
+        constant = 42
+        a, _ = self._new_actor(a_type, {'constant':constant})
+        self.assertEqual(a.constant, constant)  
+####
+
+---USERCONTENT---Refactor the code:\n

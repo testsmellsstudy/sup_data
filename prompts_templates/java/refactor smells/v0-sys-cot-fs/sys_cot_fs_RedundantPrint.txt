@@ -1,0 +1,41 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Java. You will be provided with a test code in Java and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Redundant Print: Contains a statement that prints the value of a variable to the console.
+
+Follow the steps below to refactor the Redundant Print:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework its been used;
+<Step 3> Locate where Redundant Print occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Redundant Print. You can modify the test method as you wish but keep in mind that you should maintain the main idea of the test code. 
+<Step 5> Give me only the test code you refactored.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+@Test
+public void testTransform10mNEUAndBack() {
+    Leg northEastAndUp10M = new Leg(10, 45, 45);
+    Coord3D result = transformer.transform(Coord3D.ORIGIN, northEastAndUp10M);
+    System.out.println("result = " + result);
+    Leg reverse = new Leg(10, 225, -45);
+    result = transformer.transform(result, reverse);
+    assertEquals(Coord3D.ORIGIN, result);
+}
+####
+<Refactored test code>
+####
+@Test
+public void testTransform10mNEUAndBack() {
+    Leg northEastAndUp10M = new Leg(10, 45, 45);
+    Coord3D result = transformer.transform(Coord3D.ORIGIN, northEastAndUp10M);
+    Leg reverse = new Leg(10, 225, -45);
+    result = transformer.transform(result, reverse);
+    assertEquals(Coord3D.ORIGIN, result);
+}
+####
+
+---USERCONTENT---Refactor the code:\n

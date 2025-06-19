@@ -1,0 +1,12 @@
+---SYSTEMCONTENT---You are an expert Python developer. 
+
+---USERCONTENT---Your task is to refactor the Python test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Empty Test", which occurs when a test case does not contain a single executable statement. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+
+Now provide only the refactored test code:
+
+

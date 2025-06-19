@@ -1,0 +1,71 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,AbstractMultiSourceExtracter,143,0,20,0,32,0,12,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,StringSourceExtracter,51,0,10,0,14,0,7,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,StringMergingMultiSourceExtracter,53,0,4,0,12,0,6,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,StringMergingMultiSourceExtracter.Builder,31,0,0,0,7,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,NonMergingMultiSourceExtracter.Builder,31,0,0,0,7,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,NonMergingMultiSourceExtracter,22,0,0,0,5,0,4,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.source,AbstractMultiSourceExtracter.ConstituentExtracter,9,0,0,0,4,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.extern,PriorityQueue,333,0,36,0,74,0,31,0,13,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,ConstantTermWeigher,13,0,0,0,6,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,NoSourceTermSourceFinder,5,0,0,0,2,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,ConstantHitWeigher,15,0,0,0,5,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,SourceExtractingHitWeigher,18,0,0,0,5,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,CachingTermWeigher,42,0,2,0,12,0,4,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,MultiplyingTermWeigher,27,0,2,0,8,0,3,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,CachingTermWeigher.MapCache,37,0,4,0,11,0,6,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit.weight,ExactMatchTermWeigher,23,0,2,0,8,0,3,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,MergingHitEnum.HitEnumPriorityQueue.new Iterator() {...},44,0,4,0,6,0,6,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,PositionBoostingHitEnumWrapper,86,0,8,0,14,0,9,0,5,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,MergingHitEnum,122,0,10,0,25,0,15,0,10,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,PositionBoostingHitEnumWrapper.PositionBoost,27,0,0,0,5,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,ConcatHitEnum,134,0,10,0,30,0,15,0,10,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,ReplayingHitEnum.Hit,42,0,0,0,9,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,ReplayingHitEnum.HitEnumAndLength,15,0,0,0,6,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,OverlapMergingHitEnumWrapper,175,0,18,0,38,0,20,0,11,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,BreakIteratorHitEnum.RepairedHitEnum,43,0,2,0,11,0,5,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,RegexHitEnum,85,0,2,0,21,0,11,0,10,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,WeightFilteredHitEnumWrapper,54,0,2,0,8,0,5,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,ReplayingHitEnum,178,0,8,0,37,0,19,0,15,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,PhraseHitEnumWrapper.PhraseCandidate,165,0,14,0,25,0,12,0,5,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,PhraseHitEnumWrapper,411,0,46,0,91,0,38,0,15,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,MergingHitEnum.HitEnumPriorityQueue,88,0,10,0,21,0,9,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,AbstractFilteredHitEnumWrapper,15,0,4,0,6,0,4,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,AbstractHitEnum,7,0,0,0,3,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,EmptyHitEnum,19,0,0,0,8,0,8,0,8,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,BreakIteratorHitEnum,116,0,4,0,29,0,13,0,11,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.hit,AbstractHitEnumWrapper,46,0,0,0,14,0,10,0,10,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,HitEnum.LessThans,24,0,0,0,3,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,Snippet,57,0,0,0,10,0,7,0,7,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,SnippetFormatter.Default,78,0,4,0,15,0,4,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,HitEnum.LessThans.new HitEnum.LessThans() {...},15,0,2,0,2,0,3,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,HitEnum.LessThans.new HitEnum.LessThans() {...},29,0,6,0,4,0,5,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,SimpleSegment,15,0,0,0,6,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental,Snippet.Hit,54,0,2,0,13,0,8,0,7,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.tools,GraphvizHitEnumGenerator.Link,9,0,0,0,4,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.tools,GraphvizHit,36,0,0,0,7,0,4,0,4,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.tools,GraphvizSnippetFormatter,68,0,4,0,14,0,4,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.tools,GraphvizHitEnum,22,0,0,0,6,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.tools,GraphvizHitEnumGenerator,235,0,6,0,53,0,13,0,10,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,SumSnippetWeigher,23,0,2,0,6,0,3,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,MultiSegmenter,301,0,32,0,56,0,26,0,10,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,WholeSourceSegmenter,25,0,2,0,5,0,4,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BreakIteratorSegmenter,106,0,20,0,19,0,13,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,MultiSegmenter.Builder,31,0,0,0,7,0,3,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser.ProtoSnippetComparators.new BasicScoreBasedSnippetChooser.ProtoSnippetComparators() {...},36,0,8,0,6,0,6,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser.ProtoSnippetComparators.new BasicScoreBasedSnippetChooser.ProtoSnippetComparators() {...},24,0,4,0,4,0,4,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,CharScanningSegmenter,71,0,2,0,11,0,6,0,5,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,CharScanningSegmenter.CharScanningSegmenterMemo,240,0,32,0,55,0,22,0,6,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,MultiSegmenter.MulitSegmenterMemo,47,0,0,0,9,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser.State,3,0,0,0,1,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser.ProtoSnippetQueue,50,0,6,0,11,0,6,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicSourceOrderSnippetChooser.State,3,0,0,0,1,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,ExponentialSnippetWeigher,113,0,7,0,24,0,6,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,AbstractBasicSnippetChooser,104,0,14,0,30,0,10,0,3,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,ImmediateSegmenterMemo,9,0,0,0,4,0,2,0,2,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicSourceOrderSnippetChooser,68,0,2,0,14,0,7,0,6,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,ExponentialSnippetWeigher.SourceComparator,6,0,0,0,1,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser.ProtoSnippet,3,0,0,0,1,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,MultiSegmenter.ConstituentSegmenter,9,0,0,0,4,0,1,0,1,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser,229,0,12,0,54,0,14,0,8,0
+Core algorithms and interfaces for the experimental highlighter,org.wikimedia.search.highlighter.experimental.snippet,BasicScoreBasedSnippetChooser.ProtoSnippetComparators,24,0,0,0,3,0,1,0,1,0

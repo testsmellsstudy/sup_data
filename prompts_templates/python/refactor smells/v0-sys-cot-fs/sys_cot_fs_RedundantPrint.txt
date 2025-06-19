@@ -1,0 +1,77 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Python. You will be provided with a test code in Python and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Redundant Print: Contains a statement that prints the value of a variable to the console.
+
+Follow the steps below to refactor the Redundant Print:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework its been used;
+<Step 3> Locate where Redundant Print occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Redundant Print. You can modify the test method as you wish but keep in mind that you should maintain the main idea of the test code. 
+<Step 5> Give me only the test code you refactored.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+def test_exception_propagation(self):
+        logger = logging.getLogger(__name__)
+        log_exception = diagnostic_utils.create_log_exception_decorator(logger)
+
+        # Suppress log output and capture LogRecord
+        log_record_bucket = []
+        logger.handle = log_record_bucket.append
+
+        exception = Exception('Oops!')
+
+        @log_exception
+        def my_func_that_raises():
+            raise exception
+
+        with self.assertRaises(Exception) as ctx:
+            my_func_that_raises()
+
+        # Make sure the expected exception was raised
+        self.assertIs(ctx.exception, exception)
+
+        # Check log message
+        self.assertEqual(len(log_record_bucket), 1)
+        log_record = log_record_bucket[0]  # type: logging.LogRecord
+        print(log_record.getMessage())
+        expected_ending = 'Exception: Oops!\n'
+        self.assertEqual(log_record.getMessage()[-len(expected_ending):],
+                         expected_ending)
+####
+<Refactored test code>
+####
+def test_exception_propagation(self):
+        logger = logging.getLogger(__name__)
+        log_exception = diagnostic_utils.create_log_exception_decorator(logger)
+
+        # Suppress log output and capture LogRecord
+        log_record_bucket = []
+        logger.handle = log_record_bucket.append
+
+        exception = Exception('Oops!')
+
+        @log_exception
+        def my_func_that_raises():
+            raise exception
+
+        with self.assertRaises(Exception) as ctx:
+            my_func_that_raises()
+
+        # Make sure the expected exception was raised
+        self.assertIs(ctx.exception, exception)
+
+        # Check log message
+        self.assertEqual(len(log_record_bucket), 1)
+        log_record = log_record_bucket[0]  # type: logging.LogRecord
+        expected_ending = 'Exception: Oops!\n'
+        self.assertEqual(log_record.getMessage()[-len(expected_ending):],
+                         expected_ending)
+####
+
+---USERCONTENT---Refactor the code:\n

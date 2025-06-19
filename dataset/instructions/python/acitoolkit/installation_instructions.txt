@@ -1,0 +1,8 @@
+coloca com o root do acitoolkit como cwd, substitui o Dockerfile do projeto original pelo que te mandei em anexo e  roda o comando
+
+sudo docker build -t acitoolkit-test-smells:latest .
+
+
+sudo docker run -it --rm -v $(pwd)/coverage_html:/opt/acitoolkit/coverage_html acitoolkit-test-smells:latest /bin/bash \
+-c "coverage run tests/acitoolkit_test.py offline && coverage html -d /opt/acitoolkit/coverage_html && coverage json -o \
+/opt/acitoolkit/coverage_html/coverage.json"

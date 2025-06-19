@@ -1,0 +1,87 @@
+---SYSTEMCONTENT---You are a software quality assurance engineer specializing in Java. Your task is to assure test code quality by
+detecting test smells.
+
+Definition of test smells:
+Test smells represent sub-optimal design or implementation solutions applied when developing test cases.
+ 
+Definition of Sleepy Test Smell: 
+Occurs when an artificial delay is introduced by the developer for a certain duration (i.e., simulate an external event) and then continue with the execution.
+
+Follow the steps below to identify this smell within test code.
+After these steps, there are two examples of a test method where Sleepy Test Smell is present, and other is not present.
+
+i) Analyze the test code provided;
+ii) According to the Sleepy Test Smell definition, check if this smell is present in provided code.
+iii) Your output should be 'YES' if Sleepy Test Smell is present, and 'NO' if its not present.
+
+<example number 1 below of test code with the test smell presented, delimited by 4 hashtags>
+####
+public void testEdictExternSearch() throws Exception {
+    final Intent i = new Intent(getInstrumentation().getContext(), ResultActivity.class);
+    i.setAction(ResultActivity.EDICT_ACTION_INTERCEPT);
+    i.putExtra(ResultActivity.EDICT_INTENTKEY_KANJIS, "空白");
+	tester.startActivity(i);
+	assertTrue(tester.getText(R.id.textSelectedDictionary).contains("Default"));
+	final ListView lv = getActivity().getListView();
+	assertEquals(1, lv.getCount());
+	DictEntry entry = (DictEntry) lv.getItemAtPosition(0);
+	assertEquals("Searching", entry.english);
+	Thread.sleep(500);
+	final Intent i2 = getStartedActivityIntent();
+	final List result = (List) i2.getSerializableExtra(ResultActivity.INTENTKEY_RESULT_LIST);
+	entry = result.get(0);
+	assertEquals("(adj-na,n,adj-no) blank space/vacuum/space/null (NUL)/(P)", entry.english);
+	assertEquals("空白", entry.getJapanese());
+	assertEquals("くうはく", entry.reading);
+	assertEquals(1, result.size());
+}
+####
+
+<example number 2 of test code below with not the test smell, delimited by 4 hashtags>
+####
+public void testEdictExternSearch() throws Exception {
+    final Intent i = new Intent(getInstrumentation().getContext(), ResultActivity.class);
+    i.setAction(ResultActivity.EDICT_ACTION_INTERCEPT);
+    i.putExtra(ResultActivity.EDICT_INTENTKEY_KANJIS, "空白");
+    tester.startActivity(i);
+    assertTrue(tester.getText(R.id.textSelectedDictionary).contains("Default"));
+
+    final IdlingResource idlingResource = new MyCustomIdlingResource(lv);
+    getInstrumentation().registerIdleResource(idlingResource);
+
+    tester.startActivity(i);
+
+    assertEquals(1, lv.getCount()); // Can potentially move this after idling
+    DictEntry entry = (DictEntry) lv.getItemAtPosition(0);
+    assertEquals("Searching", entry.english);
+
+    final Intent i2 = getStartedActivityIntent();
+    final List result = (List) i2.getSerializableExtra(ResultActivity.INTENTKEY_RESULT_LIST);
+    entry = result.get(0);
+    assertEquals("(adj-na,n,adj-no) blank space/vacuum/space/null (NUL)/(P)", entry.english);
+    assertEquals("空白", entry.getJapanese());
+    assertEquals("くうはく", entry.reading);
+    assertEquals(1, result.size());
+
+    getInstrumentation().unregisterIdleResource(idlingResource);
+}
+
+public class MyCustomIdlingResource implements IdlingResource {
+    private final ListView listView;
+
+    public MyCustomIdlingResource(ListView listView) {
+        this.listView = listView;
+    }
+
+    @Override
+    public boolean isIdleNow() {
+        return listView.getCount() > 1; 
+    }
+
+    @Override
+    public void registerIdleTransitionCallback(IdlingResource.ResourceCallback callback) {
+        this.callback = callback;
+    }
+}
+####
+---USERCONTENT---analyze the test code below:\n

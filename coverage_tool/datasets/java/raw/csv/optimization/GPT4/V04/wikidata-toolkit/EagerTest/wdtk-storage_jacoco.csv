@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,CountBitsArray,0,168,0,20,0,38,0,17,0,7
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,BitVectorImpl,5,535,1,49,1,111,1,44,0,20
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,FindPositionArray,0,204,1,23,0,46,1,18,0,7
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,BitVectorIterator,0,93,1,11,0,18,1,11,0,6
+Wikidata Toolkit Storage,org.wikidata.wdtk.storage.datastructures,RankedBitVectorImpl,0,248,0,12,0,54,0,21,0,15

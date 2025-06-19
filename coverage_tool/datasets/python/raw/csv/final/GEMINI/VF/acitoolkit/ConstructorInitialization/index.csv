@@ -1,0 +1,17 @@
+Module,statements,missing,excluded,coverage
+acitoolkit/__about__.py,9,0,0,100%
+acitoolkit/__init__.py,17,0,0,100%
+acitoolkit/aciConcreteLib.py,1438,1164,0,19%
+acitoolkit/aciFaults.py,109,85,0,22%
+acitoolkit/aciHealthScore.py,45,32,0,29%
+acitoolkit/aciSearch.py,71,55,0,23%
+acitoolkit/aciTable.py,64,47,0,27%
+acitoolkit/acibaseobject.py,851,469,0,45%
+acitoolkit/acicounters.py,235,212,0,10%
+acitoolkit/acifakeapic.py,178,142,0,20%
+acitoolkit/aciphysobject.py,1647,1360,0,17%
+acitoolkit/acisession.py,531,395,0,26%
+acitoolkit/acitoolkit.py,3517,2034,0,42%
+acitoolkit/acitoolkitlib.py,172,151,0,12%
+tests/acitoolkit_test.py,3070,1195,0,61%
+Total,11954,7341,0,39%

@@ -1,0 +1,13 @@
+File,statements,missing,excluded,branches,partial,coverage
+/home/maquina-05/laboratory/test_smells_study/test-smells.llm.experiments.none.br/__init__.py,0,0,0,0,0,100%
+/home/maquina-05/laboratory/test_smells_study/test-smells.llm.experiments.none.br/python/__init__.py,0,0,0,0,0,100%
+spotipy/__init__.py,5,0,0,0,0,100%
+spotipy/cache_handler.py,97,45,0,8,1,52%
+spotipy/client.py,576,434,0,156,0,19%
+spotipy/exceptions.py,11,8,0,2,0,23%
+spotipy/oauth2.py,571,259,0,164,23,51%
+spotipy/util.py,45,26,0,22,2,34%
+tests/__init__.py,0,0,0,0,0,100%
+tests/unit/__init__.py,0,0,0,0,0,100%
+tests/unit/test_oauth.py,358,2,0,0,0,99%
+Total,1663,774,0,352,26,48%

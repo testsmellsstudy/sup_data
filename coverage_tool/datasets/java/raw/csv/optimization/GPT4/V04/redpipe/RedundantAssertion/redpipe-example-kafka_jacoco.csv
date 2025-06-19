@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+redpipe-example-kafka,net.redpipe.example.kafka,Main,122,0,0,0,31,0,6,0,6,0
+redpipe-example-kafka,net.redpipe.example.kafka,MetricsVerticle,79,0,2,0,15,0,5,0,4,0
+redpipe-example-kafka,net.redpipe.example.kafka,KafkaResource,65,0,2,0,16,0,5,0,4,0
+redpipe-example-kafka,net.redpipe.example.kafka,AppResource,7,0,0,0,2,0,2,0,2,0

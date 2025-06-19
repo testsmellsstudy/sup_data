@@ -1,0 +1,41 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Test Helpers,io.dropwizard.testing,ConfigOverride,0,89,0,2,0,13,0,10,0,9
+Dropwizard Test Helpers,io.dropwizard.testing,POJOConfigurationFactory,9,14,0,0,3,4,3,2,3,2
+Dropwizard Test Helpers,io.dropwizard.testing,DropwizardTestSupport,73,279,9,15,20,71,10,25,3,20
+Dropwizard Test Helpers,io.dropwizard.testing,DropwizardTestSupport.ServiceListener,5,0,0,0,3,0,3,0,3,0
+Dropwizard Test Helpers,io.dropwizard.testing,ResourceHelpers,12,8,2,0,4,1,1,1,0,1
+Dropwizard Test Helpers,io.dropwizard.testing,DropwizardTestSupport.new DropwizardTestSupport.ServiceListener() {...},15,0,0,0,3,0,2,0,2,0
+Dropwizard Test Helpers,io.dropwizard.testing,DropwizardTestSupport.new Bootstrap() {...},19,38,1,1,5,7,1,3,0,3
+Dropwizard Test Helpers,io.dropwizard.testing,FixtureHelpers,6,12,0,0,2,3,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DropwizardAppRule.ServiceListener,5,0,0,0,3,0,3,0,3,0
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DropwizardClientRule,8,21,0,0,2,8,2,4,2,4
+Dropwizard Test Helpers,io.dropwizard.testing.junit,ResourceTestRule.Builder,0,10,0,0,0,2,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.junit,ResourceTestRule.new Statement() {...},0,21,0,0,0,5,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DropwizardAppRule,48,138,0,8,10,37,7,19,7,15
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DAOTestRule.Builder,0,10,0,0,0,2,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DropwizardAppRule.new DropwizardAppRule.ServiceListener() {...},15,0,0,0,3,0,2,0,2,0
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DropwizardAppRule.new DropwizardTestSupport.ServiceListener() {...},23,0,0,0,5,0,3,0,3,0
+Dropwizard Test Helpers,io.dropwizard.testing.junit,ResourceTestRule,16,28,0,0,4,7,4,5,4,5
+Dropwizard Test Helpers,io.dropwizard.testing.junit,DAOTestRule,5,27,0,0,2,10,1,6,1,6
+Dropwizard Test Helpers,io.dropwizard.testing.junit,MockitoTestRule,8,41,1,1,3,10,1,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DAOTestExtension,5,27,0,0,2,10,1,6,1,6
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DropwizardAppExtension.new DropwizardAppExtension.ServiceListener() {...},15,0,0,0,3,0,2,0,2,0
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DropwizardAppExtension.new DropwizardTestSupport.ServiceListener() {...},23,0,0,0,5,0,3,0,3,0
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,ResourceExtension,16,27,0,0,4,10,4,6,4,6
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DropwizardAppExtension.ServiceListener,5,0,0,0,3,0,3,0,3,0
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DropwizardAppExtension,48,138,2,6,10,37,9,17,7,15
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DropwizardExtensionsSupport,41,138,1,11,9,31,3,13,2,8
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DAOTestExtension.Builder,0,10,0,0,0,2,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,DropwizardClientExtension,8,21,0,0,2,8,2,4,2,4
+Dropwizard Test Helpers,io.dropwizard.testing.junit5,ResourceExtension.Builder,0,10,0,0,0,2,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.common,DropwizardClient.DummyHealthCheck,2,0,0,0,1,0,1,0,1,0
+Dropwizard Test Helpers,io.dropwizard.testing.common,DropwizardClient.FakeApplication,0,60,0,4,0,11,0,4,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.common,DropwizardTestResourceConfig,22,96,2,6,4,18,2,6,0,4
+Dropwizard Test Helpers,io.dropwizard.testing.common,DropwizardClient.new DropwizardTestSupport() {...},0,16,0,0,0,2,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.common,Resource,16,50,0,0,4,13,4,6,4,6
+Dropwizard Test Helpers,io.dropwizard.testing.common,DAOTest.Builder,0,211,0,0,0,50,0,12,0,12
+Dropwizard Test Helpers,io.dropwizard.testing.common,Resource.Builder,25,128,1,1,8,32,5,14,4,14
+Dropwizard Test Helpers,io.dropwizard.testing.common,DropwizardClient,8,38,0,0,2,9,2,4,2,4
+Dropwizard Test Helpers,io.dropwizard.testing.common,ResourceTestJerseyConfiguration,0,31,0,0,0,11,0,2,0,2
+Dropwizard Test Helpers,io.dropwizard.testing.common,Resource.new JerseyTest() {...},0,51,0,0,0,12,0,4,0,4
+Dropwizard Test Helpers,io.dropwizard.testing.common,DAOTest,18,64,4,4,7,25,6,6,2,6

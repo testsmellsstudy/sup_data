@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Pippo Jackson,ro.pippo.jackson,JacksonBaseEngine,42,37,0,0,6,8,0,4,0,4
+Pippo Jackson,ro.pippo.jackson,JacksonXmlEngine,2,15,0,0,1,4,1,2,1,2
+Pippo Jackson,ro.pippo.jackson,JacksonYamlEngine,2,7,0,0,1,2,1,2,1,2
+Pippo Jackson,ro.pippo.jackson,JacksonJsonEngine,2,7,0,0,1,2,1,2,1,2
+Pippo Jackson,ro.pippo.jackson,JacksonInitializer,20,0,4,0,8,0,5,0,3,0

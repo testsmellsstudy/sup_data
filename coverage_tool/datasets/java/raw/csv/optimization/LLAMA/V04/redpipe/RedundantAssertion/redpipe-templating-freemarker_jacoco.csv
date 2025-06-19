@@ -1,0 +1,3 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+redpipe-templating-freemarker,net.redpipe.templating.freemarker,RouterFunction,170,3,22,0,27,1,12,1,1,1
+redpipe-templating-freemarker,net.redpipe.templating.freemarker,FreeMarkerTemplateRenderer,0,58,0,2,0,10,0,5,0,4

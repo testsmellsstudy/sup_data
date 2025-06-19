@@ -1,0 +1,12 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Metrics Support,io.dropwizard.metrics,MetricsFactory,22,61,0,2,3,20,1,8,1,7
+Dropwizard Metrics Support,io.dropwizard.metrics,SubstringMatchingStrategy,0,22,0,4,0,6,0,4,0,2
+Dropwizard Metrics Support,io.dropwizard.metrics,RegexStringMatchingStrategy,0,39,1,5,0,11,1,4,0,2
+Dropwizard Metrics Support,io.dropwizard.metrics,Slf4jReporterFactory,13,38,1,1,4,13,3,5,2,5
+Dropwizard Metrics Support,io.dropwizard.metrics,DefaultStringMatchingStrategy,0,7,0,0,0,2,0,2,0,2
+Dropwizard Metrics Support,io.dropwizard.metrics,BaseReporterFactory,4,159,0,10,2,49,1,27,1,22
+Dropwizard Metrics Support,io.dropwizard.metrics,ConsoleReporterFactory,0,47,0,0,0,18,0,6,0,6
+Dropwizard Metrics Support,io.dropwizard.metrics,CsvReporterFactory,16,39,3,1,1,13,2,4,0,4
+Dropwizard Metrics Support,io.dropwizard.metrics,ScheduledReporterManager,14,9,0,0,4,4,2,1,2,1
+Dropwizard Metrics Support,io.dropwizard.metrics,BaseFormattedReporterFactory,4,9,0,0,2,4,1,2,1,2
+Dropwizard Metrics Support,io.dropwizard.metrics,ConsoleReporterFactory.ConsoleStream,2,29,1,1,1,5,1,2,0,2

@@ -1,0 +1,63 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Sensitive Equality", which ocurs when the toString method is used within a test method. Second, I need a version of code that keeps the same test's intention but mitigates this smell.
+One approach involves implementing a custom code that create a string version of the instance.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+@Test
+public void test1() throws UnknownHostException {
+
+    String peersPacket = "F8 4E 11 F8 4B C5 36 81 " +
+        "CC 0A 29 82 76 5F B8 40 D8 D6 0C 25 80 FA 79 5C " +
+        "FC 03 13 EF DE BA 86 9D 21 94 E7 9E 7C B2 B5 22 " +
+        "F7 82 FF A0 39 2C BB AB 8D 1B AC 30 12 08 B1 37 " +
+        "E0 DE 49 98 33 4F 3B CF 73 FA 11 7E F2 13 F8 74 " +
+        "17 08 9F EA F8 4C 21 B0";
+
+    byte[] payload = Hex.decode(peersPacket);
+
+    byte[] ip = decodeIP4Bytes(payload, 5);
+
+    assertEquals(InetAddress.getByAddress(ip).toString(), ("/54.204.10.41"));
+}
+```
+<Refactored test code>
+```
+Public class InetAddressTest {
+
+    @Test
+    public void test1() throws UnknownHostException {
+        String peersPacket = "F8 4E 11 F8 4B C5 36 81 " +
+            "CC 0A 29 82 76 5F B8 40 D8 D6 0C 25 80 FA 79 5C " +
+            "FC 03 13 EF DE BA 86 9D 21 94 E7 9E 7C B2 B5 22 " +
+            "F7 82 FF A0 39 2C BB AB 8D 1B AC 30 12 08 B1 37 " +
+            "E0 DE 49 98 33 4F 3B CF 73 FA 11 7E F2 13 F8 74 " +
+            "17 08 9F EA F8 4C 21 B0";
+
+        byte[] payload = Hex.decode(peersPacket);
+        byte[] ip = decodeIP4Bytes(payload, 5);
+
+        assertArrayEquals(ip, InetAddress.getByAddress(ip).getAddress());
+    }
+
+    private byte[] decodeIP4Bytes(byte[] payload, int offset) {
+        byte[] ip = new byte[4];
+        System.arraycopy(payload, offset, ip, 0, 4);
+        return ip;
+    }
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```
+
+

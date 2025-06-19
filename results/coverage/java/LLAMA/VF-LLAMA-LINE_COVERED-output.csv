@@ -1,0 +1,15 @@
+project_name,total,lost_coverage_lines,improve_coverage_lines
+aismessages,0.0,0.0,0.0
+elastic-job-lite,0.0,0.0,0.0
+pippo,25.181818181818183,25.181818181818183,0.0
+jimfs,-8.0,10.0,-18.0
+unix4j,-437.6666666666667,0.5,-438.1666666666667
+dropwizard,-3.4615384615384617,0.0,-3.4615384615384617
+marine-api,0.0,0.0,0.0
+redpipe,0.0,0.0,0.0
+search-highlighter,-834.0,0.0,-834.0
+jfreechart,-8.0,7.5,-15.5
+junit-quickcheck,16.25,41.75,-25.5
+wikidata-toolkit,0.0,0.0,0.0
+média,-104.14136557886559,7.077651515151516,-111.21901709401709
+sum,-1249.696386946387,84.93181818181819,-1334.628205128205

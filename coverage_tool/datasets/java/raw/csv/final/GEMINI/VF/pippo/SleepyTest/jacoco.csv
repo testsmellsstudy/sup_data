@@ -1,0 +1,113 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Pippo Session Ehcache2,ro.pippo.session.ehcache,EhcacheSessionDataStorage,6,45,0,2,3,12,1,7,1,6
+Pippo Session,ro.pippo.session,SessionRequestResponseFactory,44,0,0,0,8,0,3,0,3,0
+Pippo Session,ro.pippo.session,EncryptedSessionDataTranscoder.Builder,22,47,4,4,7,11,7,3,3,3
+Pippo Session,ro.pippo.session,SessionHttpServletRequest.new PippoHttpSession() {...},20,0,0,0,4,0,2,0,2,0
+Pippo Session,ro.pippo.session,PippoHttpSession,171,0,12,0,51,0,31,0,25,0
+Pippo Session,ro.pippo.session,EncryptedSessionDataTranscoder,13,79,1,1,4,18,1,5,0,5
+Pippo Session,ro.pippo.session,SessionManager,28,0,0,0,10,0,5,0,5,0
+Pippo Session,ro.pippo.session,MemorySessionDataStorage,49,0,4,0,16,0,7,0,5,0
+Pippo Session,ro.pippo.session,BaseEncryptor,0,62,0,0,0,13,0,3,0,3
+Pippo Session,ro.pippo.session,DefaultEncryptor,0,4,0,0,0,2,0,1,0,1
+Pippo Session,ro.pippo.session,CookieSessionStrategy,68,0,2,0,17,0,7,0,6,0
+Pippo Session,ro.pippo.session,SessionHttpServletRequest,166,0,28,0,41,0,25,0,11,0
+Pippo Session,ro.pippo.session,SerializationSessionDataTranscoder,15,52,0,0,4,10,0,3,0,3
+Pippo Session,ro.pippo.session,DefaultSessionData,115,55,11,1,21,15,18,6,12,6
+Pippo Session Ehcache3,ro.pippo.session.ehcache,EhcacheFactory,9,18,0,0,2,6,1,2,1,2
+Pippo Session Ehcache3,ro.pippo.session.ehcache,EhcacheSessionDataStorage,6,32,0,0,3,9,1,5,1,5
+Pippo Core,ro.pippo.core,Error,151,0,8,0,38,0,19,0,15,0
+Pippo Core,ro.pippo.core,PippoRuntimeException,10,10,0,0,4,4,2,2,2,2
+Pippo Core,ro.pippo.core,PippoServletContextListener,75,0,4,0,19,0,6,0,4,0
+Pippo Core,ro.pippo.core,Application,349,98,27,3,98,26,53,9,39,8
+Pippo Core,ro.pippo.core,ResponseFinalizeListenerList,11,0,0,0,3,0,2,0,2,0
+Pippo Core,ro.pippo.core,AbstractWebServer,84,0,4,0,26,0,13,0,11,0
+Pippo Core,ro.pippo.core,Response,906,171,70,6,257,49,104,17,68,15
+Pippo Core,ro.pippo.core,Flash,240,0,30,0,45,0,42,0,27,0
+Pippo Core,ro.pippo.core,PippoConstants,0,4,0,0,0,1,0,1,0,1
+Pippo Core,ro.pippo.core,Request,950,197,103,15,205,52,96,13,40,10
+Pippo Core,ro.pippo.core,Session,112,0,8,0,33,0,17,0,13,0
+Pippo Core,ro.pippo.core,DefaultErrorHandler,538,107,58,8,128,27,42,8,6,6
+Pippo Core,ro.pippo.core,RequestResponse,15,0,0,0,6,0,3,0,3,0
+Pippo Core,ro.pippo.core,WebServerSettings,116,0,0,0,33,0,15,0,15,0
+Pippo Core,ro.pippo.core,Flash.Message,94,0,2,0,19,0,12,0,11,0
+Pippo Core,ro.pippo.core,RuntimeMode,14,95,1,5,1,18,1,7,0,5
+Pippo Core,ro.pippo.core,StatusCodeException,45,0,0,0,13,0,5,0,5,0
+Pippo Core,ro.pippo.core,AbstractTemplateEngine,7,70,0,0,3,17,2,11,2,11
+Pippo Core,ro.pippo.core,Pippo.new ReloadClassLoader() {...},37,0,2,0,7,0,3,0,2,0
+Pippo Core,ro.pippo.core,PippoSettings,642,575,55,37,141,131,72,30,36,20
+Pippo Core,ro.pippo.core,DefaultUriMatcher,35,404,3,31,5,94,4,25,1,11
+Pippo Core,ro.pippo.core,WebServer,11,0,0,0,3,0,2,0,2,0
+Pippo Core,ro.pippo.core,StatusCodeExceptionHandler,16,6,0,0,4,3,1,1,1,1
+Pippo Core,ro.pippo.core,Languages,256,56,28,2,56,16,25,4,10,4
+Pippo Core,ro.pippo.core,PippoFilter,410,0,38,0,109,0,35,0,16,0
+Pippo Core,ro.pippo.core,RedirectHandler,30,0,2,0,11,0,4,0,3,0
+Pippo Core,ro.pippo.core,ContentTypeEngines,177,69,17,1,32,16,14,4,5,4
+Pippo Core,ro.pippo.core,ParameterValue,166,812,46,124,28,172,44,95,5,49
+Pippo Core,ro.pippo.core,Messages,335,155,31,9,66,35,25,8,8,5
+Pippo Core,ro.pippo.core,Pippo,320,0,28,0,103,0,35,0,21,0
+Pippo Core,ro.pippo.core,UriMatcher.UriPatternBinding,22,21,0,0,1,8,1,4,1,4
+Pippo Core,ro.pippo.core,TemplateHandler,33,0,4,0,10,0,5,0,3,0
+Pippo Core,ro.pippo.core,TextPlainEngine,47,6,8,0,11,3,6,3,2,3
+Pippo Core,ro.pippo.core,RequestResponseFactory,20,6,0,0,3,3,1,1,1,1
+Pippo Core,ro.pippo.core,ResponseFinalizeListenerList.new ListenerList.Notifier() {...},14,0,0,0,3,0,2,0,2,0
+Pippo Core,ro.pippo.core,FileItem,126,0,8,0,28,0,14,0,10,0
+Pippo Core,ro.pippo.core,PippoServlet,214,0,12,0,58,0,14,0,8,0
+Pippo Core,ro.pippo.core.reload,ReloadWatcher.Event,34,0,0,0,4,0,1,0,1,0
+Pippo Core,ro.pippo.core.reload,ReloadWatcher.Builder,48,0,2,0,12,0,6,0,5,0
+Pippo Core,ro.pippo.core.reload,ReloadClassLoader,138,0,18,0,35,0,15,0,6,0
+Pippo Core,ro.pippo.core.reload,ReloadWatcher.new SimpleFileVisitor() {...},35,0,0,0,4,0,2,0,2,0
+Pippo Core,ro.pippo.core.reload,ReloadWatcher.new HashMap() {...},18,0,0,0,5,0,1,0,1,0
+Pippo Core,ro.pippo.core.reload,ReloadWatcher,224,0,28,0,72,0,21,0,7,0
+Pippo Core,ro.pippo.core.gzip,GZipResponseStream,108,0,8,0,31,0,10,0,6,0
+Pippo Core,ro.pippo.core.gzip,GZipResponseWrapper,77,0,8,0,22,0,11,0,7,0
+Pippo Core,ro.pippo.core.gzip,GZipFilter,51,0,8,0,15,0,9,0,5,0
+Pippo Core,ro.pippo.core.gzip,GZipRequestResponseFactory,39,23,2,6,8,5,2,5,1,2
+Pippo Core,ro.pippo.core.util,ClasspathUtils,27,47,3,7,10,17,4,5,1,3
+Pippo Core,ro.pippo.core.util,WhitelistObjectInputStream,144,0,16,0,37,0,17,0,9,0
+Pippo Core,ro.pippo.core.util,CookieUtils,36,0,8,0,10,0,6,0,2,0
+Pippo Core,ro.pippo.core.util,LangUtils,34,0,2,0,4,0,3,0,2,0
+Pippo Core,ro.pippo.core.util,Stack,18,30,0,4,7,10,3,7,3,5
+Pippo Core,ro.pippo.core.util,MimeTypes,126,48,20,2,31,15,16,3,5,3
+Pippo Core,ro.pippo.core.util,HttpCacheToolkit,132,10,22,0,29,4,13,2,2,2
+Pippo Core,ro.pippo.core.util,PathRegexBuilder,27,156,5,9,3,37,6,6,1,4
+Pippo Core,ro.pippo.core.util,DateUtils,24,0,0,0,5,0,5,0,5,0
+Pippo Core,ro.pippo.core.util,StringUtils,81,132,18,22,20,27,15,14,3,6
+Pippo Core,ro.pippo.core.util,ServiceLocator,62,0,4,0,13,0,7,0,5,0
+Pippo Core,ro.pippo.core.util,ListenerList,48,0,2,0,14,0,8,0,7,0
+Pippo Core,ro.pippo.core.util,PippoUtils,43,0,0,0,11,0,2,0,2,0
+Pippo Core,ro.pippo.core.util,ClassUtils,5,21,2,2,1,5,2,1,0,1
+Pippo Core,ro.pippo.core.util,CryptoUtils,171,0,4,0,45,0,14,0,12,0
+Pippo Core,ro.pippo.core.util,IoUtils,147,0,8,0,35,0,14,0,10,0
+Pippo Core,ro.pippo.core.websocket,WebSocketHandler,22,0,0,0,10,0,6,0,6,0
+Pippo Core,ro.pippo.core.websocket,WebSocketContext,94,0,6,0,20,0,10,0,7,0
+Pippo Core,ro.pippo.core.websocket,AbstractWebSocketFilter,207,0,30,0,52,0,23,0,8,0
+Pippo Core,ro.pippo.core.websocket,WebSocketRouter.WebSocketMatch,21,0,0,0,8,0,4,0,4,0
+Pippo Core,ro.pippo.core.websocket,WebSocketRouter,46,13,4,0,9,4,4,1,2,1
+Pippo Core,ro.pippo.core.route,ClasspathResourceHandler,0,60,0,2,0,12,0,6,0,5
+Pippo Core,ro.pippo.core.route,RouteDispatcher,303,0,22,0,74,0,23,0,12,0
+Pippo Core,ro.pippo.core.route,PingHandler,10,0,0,0,3,0,2,0,2,0
+Pippo Core,ro.pippo.core.route,RoutePreDispatchListenerList,14,0,0,0,3,0,3,0,3,0
+Pippo Core,ro.pippo.core.route,FileResourceHandler,74,0,6,0,19,0,7,0,4,0
+Pippo Core,ro.pippo.core.route,CSRFHandler,256,0,16,0,47,0,18,0,10,0
+Pippo Core,ro.pippo.core.route,Route,82,186,6,10,15,46,14,23,8,21
+Pippo Core,ro.pippo.core.route,SystemInfoHandler,130,0,4,0,31,0,9,0,7,0
+Pippo Core,ro.pippo.core.route,RoutePostDispatchListenerList,14,0,0,0,3,0,3,0,3,0
+Pippo Core,ro.pippo.core.route,TrailingSlashHandler,40,0,6,0,13,0,5,0,2,0
+Pippo Core,ro.pippo.core.route,DefaultRouteContext,479,0,22,0,121,0,67,0,56,0
+Pippo Core,ro.pippo.core.route,DirectoryHandler,792,0,57,0,165,0,57,0,28,0
+Pippo Core,ro.pippo.core.route,PublicResourceHandler,0,9,0,0,0,4,0,2,0,2
+Pippo Core,ro.pippo.core.route,DefaultRouter.new DefaultUriMatcher() {...},26,42,5,1,3,10,4,3,1,3
+Pippo Core,ro.pippo.core.route,WebjarsResourceHandler,262,67,22,4,48,17,14,6,1,6
+Pippo Core,ro.pippo.core.route,ResourceHandler,45,72,4,8,12,13,7,7,4,4
+Pippo Core,ro.pippo.core.route,Routing,57,39,1,1,17,13,7,4,6,4
+Pippo Core,ro.pippo.core.route,LanguageHandler,68,0,8,0,18,0,7,0,3,0
+Pippo Core,ro.pippo.core.route,DirectoryHandler.DirectoryBeforeComparator,25,0,8,0,6,0,6,0,2,0
+Pippo Core,ro.pippo.core.route,RouteGroup,10,83,0,2,4,26,2,13,2,12
+Pippo Core,ro.pippo.core.route,CorsHandler,117,0,14,0,33,0,14,0,7,0
+Pippo Core,ro.pippo.core.route,DefaultRouter,195,586,34,44,44,134,33,38,10,22
+Pippo Core,ro.pippo.core.route,RouteMatch,23,15,0,0,3,6,1,3,1,3
+Pippo Core,ro.pippo.core.route,ResourceRouting,68,0,0,0,11,0,9,0,9,0
+Pippo Core,ro.pippo.core.route,DefaultRouteContextFactory,13,0,0,0,4,0,4,0,4,0
+Pippo Core,ro.pippo.core.route,UrlResourceHandler,209,11,14,0,52,4,13,2,6,2
+Pippo Core,ro.pippo.core.route,DirectoryHandler.DirEntry,39,0,0,0,11,0,8,0,8,0
+Pippo Core,ro.pippo.core.route,SettingsHandler,139,0,8,0,33,0,11,0,7,0

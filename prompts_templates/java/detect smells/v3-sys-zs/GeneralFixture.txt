@@ -1,0 +1,15 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "General Fixture":
+Occurs when not all fields instantiated within the setUp method of a test class are utilized by all test methods in the same test class.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+
+
+
+

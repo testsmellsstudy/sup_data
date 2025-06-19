@@ -1,0 +1,78 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+
+Let's start step by step. First, this test code contains a test smell known as "Exception Handling", which occurs when a test method contains either a throw statement or a try-catch clause. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves splitting this test method, so that each method created considers a different execution path.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+import static org.mockito.Mockito.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class MyModuleTest {
+
+    @Test
+    public void testExceptionHandling() {
+        // Cria o mock
+        SomeClass mockVariable = mock(SomeClass.class);
+
+        // Patch do mock no lugar da variável real (em Java, isso geralmente é feito injetando o mock na classe a ser testada)
+        MyModule.someVariable = mockVariable;
+
+        try {
+            // Chama a função que deve lançar a exceção
+            MyModule.myFunction();
+
+            // Se esta linha for executada, o teste falha porque a exceção não foi lançada
+            verify(mockVariable, times(1)).methodCalled();
+            fail("Expected ValueError to be thrown");
+        } catch (ValueError e) {
+            // A exceção esperada foi lançada, continue o teste
+            assertEquals("Something went wrong!", e.getMessage());
+        }
+    }
+}
+```
+<Refactored test code>
+```
+public class MyModuleTest {
+
+    @Test
+    public void testSuccessfulExecution() {
+        // Cria o mock
+        SomeClass mockVariable = mock(SomeClass.class);
+
+        // Patch do mock no lugar da variável real (em Java, isso geralmente é feito injetando o mock na classe a ser testada)
+        MyModule.someVariable = mockVariable;
+
+        // Chama a função
+        MyModule.myFunction();
+
+        // Assert do comportamento esperado (ex: modificação de variável)
+        verify(mockVariable, times(1)).methodCalled();
+    }
+
+    @Test
+    public void testExceptionRaised() {
+        SomeClass mockVariable = mock(SomeClass.class);
+        MyModule.someVariable = mockVariable;
+
+        assertEquals("Something went wrong!", thrown.getMessage());
+    }
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```
+
+
+

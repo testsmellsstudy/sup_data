@@ -1,0 +1,14 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Mystery Guest":
+Occurs when a test method utilizes external resources (e.g. files, database, etc.).
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+
+
+

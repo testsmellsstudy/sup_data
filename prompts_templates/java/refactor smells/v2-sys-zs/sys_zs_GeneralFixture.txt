@@ -1,0 +1,9 @@
+---SYSTEMCONTENT--- You are an expert Java developer. You will be provided with a test code in Java delimited by 4 hashtags and the description of the test smells detected in that code. Your task is to refactor the code in order to eliminate the smells present in the code.
+
+The smell in test Java code is General Fixture.
+Definition: Occours when not all fields instantiated within the setUp method of a test class are utilized by all test methods in the same test class.
+
+---USERCONTENT--- Refactor the code:\n
+####
+{class_code}
+####

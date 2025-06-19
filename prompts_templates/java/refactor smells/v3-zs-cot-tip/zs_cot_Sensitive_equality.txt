@@ -1,0 +1,13 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---Your task is to refactor the Java test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Sensitive Equality", which ocurs when the toString method is used within a test method. Second, I need a version of code that keeps the same test's intention but mitigates this smell.
+One approach involves implementing a custom code that create a string version of the instance.
+
+Now provide this refactored test code, delimited by four hashtags:
+
+

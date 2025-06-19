@@ -1,0 +1,15 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---Your task is to refactor the Java test code provided within triple backticks.
+```
+{test_code_with_smell_here}
+```
+
+Let's start step by step. First, this test code contains a test smell known as "Duplicate Assert", which occurs when a test method contains more than one assertion statement with the same parameters. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves understanding why these assertions are being called on multiple lines, and replacing the variable assignments used with more descriptive names suitable for this test code.
+
+Now provide this refactored test code, delimited by four hashtags:
+
+
+
+

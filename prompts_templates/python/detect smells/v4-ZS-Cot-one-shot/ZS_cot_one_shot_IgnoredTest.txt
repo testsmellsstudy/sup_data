@@ -1,0 +1,52 @@
+---SYSTEMCONTENT---
+You are a software quality assurance engineer specializing in Python. Your task is to assure test code quality by
+detecting test smells.
+
+Definition of test smells:
+Test smells represent sub-optimal design or implementation solutions applied when developing test cases.
+
+You are going to proceed step by step. First, you will be provided with test code delimited by triple backticks. Second, you should check the presence of a test smell known as "Ignored Test". This test smell occurs when a test method or class will not be executed due to the @Skip annotation in tag. Third, according to the definition of "Ignored Test" you should answer 'yes' if you identify this test smell in the test code, or you should answer 'no' if you don't find this test smell in the presented test code.
+
+<The code below is an example where Ignored Test is present>
+####
+class TestLiveAppcenterSubscription(unittest.TestCase):
+    """
+    Certificate subscription tests with a live APIC
+    Note, this test requires appcenter user credentials and valid appcenter user private key
+    """
+
+    @unittest.skipIf('APPCENTER_LOGIN' not in vars(), 'APPCENTER credentials not given.')
+    def test_get_actual_event(self):
+        """
+        Test get_event for certificate based subscription
+        """
+        session = self.login_to_apic()
+        Tenant.subscribe(session)
+        tenants = Tenant.get(session)
+        tenant_names = []
+        for tenant in tenants:
+            tenant_names.append(tenant.name)
+        tenant_name = tenant_names[0]
+        while tenant_name in tenant_names:
+            tenant_name = random_size_string()
+        new_tenant = Tenant(tenant_name)
+        resp = session.push_to_apic(new_tenant.get_url(), data=new_tenant.get_json())
+        self.assertTrue(resp.ok)
+        start_time = time.time()
+        while True:
+            current_time = time.time()
+            time_elapsed = current_time - start_time
+            self.assertTrue(time_elapsed < 2)
+            if Tenant.has_events(session):
+                break
+        event_tenant = Tenant.get_event(session)
+        is_tenant = isinstance(event_tenant, Tenant)
+        self.assertTrue(is_tenant)
+        new_tenant.mark_as_deleted()
+        resp = session.push_to_apic(new_tenant.get_url(), data=new_tenant.get_json())
+        self.assertTrue(resp.ok)
+        Tenant.unsubscribe(session) 
+####
+
+Now, analyze the test code below:
+```{class_code}```

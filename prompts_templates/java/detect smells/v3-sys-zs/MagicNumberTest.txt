@@ -1,0 +1,12 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Magic Number Test":
+An assertion method that contains a numeric literal as an argument.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+

@@ -1,0 +1,18 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Configuration Support,io.dropwizard.configuration,YamlConfigurationFactory,0,11,0,0,0,2,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,JsonConfigurationFactory,0,10,0,0,0,2,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationParsingException.Builder.LevenshteinComparator,10,41,2,4,6,10,4,4,2,3
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationValidationException,0,13,0,0,0,4,0,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationException,4,63,1,3,1,13,2,5,1,4
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationFactory,0,8,0,0,0,1,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,UrlConfigurationSourceProvider,0,9,0,0,0,2,0,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,EnvironmentVariableSubstitutor,0,21,0,0,0,7,0,3,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationParsingException.Builder,16,359,13,41,5,80,14,38,1,24
+Dropwizard Configuration Support,io.dropwizard.configuration,FileConfigurationSourceProvider,14,16,1,1,1,4,1,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,UndefinedEnvironmentVariableException,0,4,0,0,0,2,0,1,0,1
+Dropwizard Configuration Support,io.dropwizard.configuration,SubstitutingSourceProvider,0,41,0,0,0,8,0,2,0,2
+Dropwizard Configuration Support,io.dropwizard.configuration,ResourceConfigurationSourceProvider,0,27,1,3,0,4,1,4,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,ConfigurationParsingException,0,18,0,0,0,5,0,3,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,EnvironmentVariableLookup,0,38,0,4,0,9,0,5,0,3
+Dropwizard Configuration Support,io.dropwizard.configuration,BaseConfigurationFactory,52,519,7,39,5,121,7,26,0,10
+Dropwizard Configuration Support,io.dropwizard.configuration,DefaultConfigurationFactoryFactory,0,18,0,0,0,4,0,3,0,3

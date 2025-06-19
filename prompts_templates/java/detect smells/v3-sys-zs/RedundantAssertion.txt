@@ -1,0 +1,13 @@
+---SYSTEMCONTENT---
+You are a Java expert developer.
+
+---USERCONTENT---
+Your task is to detect the presence of a specific test smell in the provided Java test code.
+
+The test smell is "Redundant Assertion":
+Occurs when a test case contains assertion statements that are either always true or always false, and are therefore unnecessary.
+
+Analyze the test code below and answer only with 'Yes' or 'No':
+{class_code}
+
+

@@ -1,0 +1,37 @@
+---SYSTEMCONTENT---You are a software engineer specialist in Java. You will be provided with a test code in Java and a description of a test smell detected in this code. Test smells are patterns in test code that suggest poor design choices.
+Your task is to refactor the test code in order to eliminate test smell present in the code. 
+The test smell present in this test code provided is: 
+Magic Number Test: An assertion method that contains a numeric literal as an argument.
+Follow the steps below to refactor the Magic Number Test:
+
+<Step 1> Analyze the test code provided delimited by 4 hashtags;
+<Step 2> Understand what this test code is testing, and which test framework its been used;
+<Step 3> Locate where Magic Number Test occurs;
+<Step 4> Based on test framework used, refactor this part of the test code to eliminate Magic Number Test. You can modify the test method as you wish but keep in mind that you should maintain the main idea of the test code. 
+<Step 5> Give me only the test code you refactored.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+####
+@Test
+public void testGetLocalTimeAsCalendar() {
+    Calendar localTime = calc.getLocalTimeAsCalendar(BigDecimal.valueOf(15.5D), Calendar.getInstance());
+    assertEquals(15, localTime.get(Calendar.HOUR_OF_DAY));
+    assertEquals(30, localTime.get(Calendar.MINUTE));
+}
+####
+<Refactored test code>
+####
+@Test
+public void testGetLocalTimeAsCalendar() {
+    Calendar localTime = calc.getLocalTimeAsCalendar(BigDecimal.valueOf(15.5D), Calendar.getInstance());
+    assert_hours = 15
+    assert_minutes = 30
+    assertEquals(assert_hours, localTime.get(Calendar.HOUR_OF_DAY));
+    assertEquals(assert_minutes, localTime.get(Calendar.MINUTE));
+}
+####
+
+---USERCONTENT---Refactor the code:\n

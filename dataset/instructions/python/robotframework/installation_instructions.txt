@@ -1,0 +1,9 @@
+python3 -m venv venv
+source venv/bin/activate
+pip3 install robotframework jsonschema resources staty classes
+pip install -r requirements-dev.txt
+pip install -r utest/requirements.txt
+pip install pytest pytest-reportlog pytest-cov
+python setup.py install
+pytest --cov --cov-report html --cov-report term-missing --cov-report json --cov-branch --report-log robotframework.log
+robot --variable BROWSER:Firefox --outputdir results .

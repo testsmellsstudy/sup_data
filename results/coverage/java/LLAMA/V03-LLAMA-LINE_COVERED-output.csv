@@ -1,0 +1,14 @@
+project_name,total,lost_coverage_lines,improve_coverage_lines
+commons-io,-2.0,0.0,-2.0
+unix4j,539.4285714285714,540.2857142857143,-0.8571428571428571
+jfreechart,-7.0,0.0,-7.0
+search-highlighter,834.0,834.0,0.0
+pippo,-27.875,2.625,-30.5
+junit-quickcheck,-503.6666666666667,34.0,-537.6666666666666
+rxjava2-extras,43.5,89.0,-45.5
+elastic-job-lite,0.0,0.0,0.0
+wikidata-toolkit,0.0,0.0,0.0
+marine-api,0.0,0.0,0.0
+redpipe,0.0,0.0,0.0
+média,79.6715367965368,136.35551948051946,-56.683982683982684
+sum,876.3869047619048,1499.9107142857142,-623.5238095238095

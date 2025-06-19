@@ -1,0 +1,3 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Pippo Session Spymemcached,ro.pippo.session.spymemcached,SpymemcachedFactory,116,0,6,0,29,0,8,0,5,0
+Pippo Session Spymemcached,ro.pippo.session.spymemcached,SpymemcachedSessionDataStorage,43,0,0,0,13,0,7,0,7,0

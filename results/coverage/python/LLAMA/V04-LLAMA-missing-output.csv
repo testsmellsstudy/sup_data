@@ -1,0 +1,17 @@
+project_name,total,lost_coverage_lines,improve_coverage_lines
+robotframework,0.0,0.0,0.0
+pybuilder,0.0,0.0,0.0
+softlayer,-623.7142857142857,0.0,-623.7142857142857
+cloud-init,-21.5,2.25,-23.75
+vhs-teletext,-3.7142857142857135,0.0,-3.7142857142857135
+acitoolkit,-0.5,0.0,-0.5
+polling,0.0,0.0,0.0
+jedi,5.5,5.5,0.0
+stig,0.0,0.0,0.0
+drmaa-python,0.0,0.0,0.0
+RxPY,-166.125,9.625,-175.75
+grimoirelab,0.0,0.0,0.0
+spotipy,-5.0,1.0,-6.0
+aws-cli,-1.0,0.0,-1.0
+média,-58.28954081632652,1.3125,-59.60204081632652
+sum,-816.0535714285713,18.375,-834.4285714285713

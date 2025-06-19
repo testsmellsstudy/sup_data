@@ -1,0 +1,12 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Request Logging Support,io.dropwizard.request.logging,LogbackAccessRequestLogFactory,57,16,4,0,12,6,4,3,2,3
+Dropwizard Request Logging Support,io.dropwizard.request.logging,ExternalRequestLogFactory,8,9,0,0,3,3,2,2,2,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging,LogbackAccessRequestLog,0,7,0,0,0,3,0,2,0,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging.old,LogbackClassicRequestLogFactory,8,85,2,2,1,22,2,8,1,7
+Dropwizard Request Logging Support,io.dropwizard.request.logging.old,DropwizardSlf4jRequestLog,7,56,0,0,2,22,0,5,0,5
+Dropwizard Request Logging Support,io.dropwizard.request.logging.old,LogbackClassicRequestLogFactory.RequestLogLayout,12,6,0,0,2,3,2,1,2,1
+Dropwizard Request Logging Support,io.dropwizard.request.logging.layout,LogbackAccessRequestLayoutFactory,9,0,0,0,2,0,2,0,2,0
+Dropwizard Request Logging Support,io.dropwizard.request.logging.layout,LogbackAccessRequestLayout,0,35,0,0,0,8,0,2,0,2
+Dropwizard Request Logging Support,io.dropwizard.request.logging.layout,SafeRequestParameterConverter,8,40,4,6,3,11,4,4,0,3
+Dropwizard Request Logging Support,io.dropwizard.request.logging.async,AsyncAccessEventAppenderFactory,8,0,0,0,2,0,2,0,2,0
+Dropwizard Request Logging Support,io.dropwizard.request.logging.async,AsyncAccessEventAppenderFactory.new AsyncAppenderBase() {...},9,0,0,0,3,0,2,0,2,0

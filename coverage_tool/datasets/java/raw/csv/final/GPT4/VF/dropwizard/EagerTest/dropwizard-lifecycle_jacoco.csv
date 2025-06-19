@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,JettyManaged,4,17,0,0,1,8,1,4,1,4
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,AutoCloseableManager,0,11,0,0,0,6,0,3,0,3
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,ExecutorServiceManager,27,45,1,3,2,14,2,8,1,7
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle,ServerLifecycleListener,19,0,0,0,3,0,2,0,2,0
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,ExecutorServiceBuilder,21,167,2,10,8,40,6,16,4,12
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,ScheduledExecutorServiceBuilder,21,106,2,2,8,24,6,6,4,6
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,LifecycleEnvironment.new AbstractLifeCycle.AbstractLifeCycleListener() {...},7,6,0,0,2,1,1,1,1,1
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,LifecycleEnvironment,33,92,1,3,8,19,5,10,4,9
+Dropwizard Lifecycle Support,io.dropwizard.lifecycle.setup,LifecycleEnvironment.ServerListener,15,0,2,0,6,0,3,0,2,0

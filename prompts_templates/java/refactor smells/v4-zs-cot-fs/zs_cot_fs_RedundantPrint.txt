@@ -1,0 +1,39 @@
+---SYSTEMCONTENT---You are an expert Java developer. 
+
+---USERCONTENT---
+Let's start step by step. First, this test code contains a test smell known as "Redundant Print", which occurs when a test method contains a statement that prints anything to the console. Second, I need a version of this code that keeps the same test's intention but mitigates this smell. 
+One approach involves deleting this line code where the test prints, or transforms this line code into a comment.
+
+An one-shot example is provided to you to be used as a reference:
+
+Example 1:
+<Provided test code>
+```
+@Test
+public void testTransform10mNEUAndBack() {
+    Leg northEastAndUp10M = new Leg(10, 45, 45);
+    Coord3D result = transformer.transform(Coord3D.ORIGIN, northEastAndUp10M);
+    System.out.println("result = " + result);
+    Leg reverse = new Leg(10, 225, -45);
+    result = transformer.transform(result, reverse);
+    assertEquals(Coord3D.ORIGIN, result);
+}
+```
+<Refactored test code>
+```
+@Test
+public void testTransform10mNEUAndBack() {
+    Leg northEastAndUp10M = new Leg(10, 45, 45);
+    Coord3D result = transformer.transform(Coord3D.ORIGIN, northEastAndUp10M);
+    Leg reverse = new Leg(10, 225, -45);
+    result = transformer.transform(result, reverse);
+    assertEquals(Coord3D.ORIGIN, result);
+}
+```
+
+Now provide the refactored test code for the code below, delimited by triple backticks.
+Attention: Preserve all existing import statements in the Java code. You may introduce new packages as needed.
+
+```
+{test_code_with_smell_here}
+```

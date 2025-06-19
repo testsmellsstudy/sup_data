@@ -1,0 +1,18 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,ExperimentalHighlighter.QueryCacheKey,95,0,14,0,18,0,10,0,3,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,ExperimentalHighlighter,82,0,2,0,14,0,6,0,5,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,ExperimentalHighlighter.CacheEntry,11,0,0,0,3,0,1,0,1,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,ElasticsearchQueryFlattener,0,36,1,3,0,11,1,5,0,4
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,BytesRefHashTermInfos,85,0,6,0,18,0,7,0,4,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,SingleValuedFetchedFieldIndexPicker,5,0,0,0,2,0,2,0,2,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,SentenceIteratorSegmenterFactory,80,0,6,0,20,0,6,0,3,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,ExperimentalHighlighter.HighlightExecutionContext,1311,0,173,0,281,0,116,0,29,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,WholeSourceSegmenterFactory,11,0,0,0,3,0,3,0,3,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,BytesRefTermWeigherCache,70,0,6,0,16,0,6,0,3,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,MultiValuedFetchedFieldIndexPicker,14,0,0,0,4,0,2,0,2,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,OffsetAugmenterSnippetFormatter,27,0,0,0,6,0,3,0,3,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,FieldWrapper,686,0,79,0,132,0,69,0,27,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,OffsetSnippetFormatter,65,0,4,0,12,0,4,0,2,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,CharScanningSegmenterFactory,40,0,0,0,7,0,3,0,3,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch,DelayedSegmenter,54,0,4,0,14,0,7,0,5,0
+Elasticsearch plugin for experimental highlighter,org.wikimedia.highlighter.experimental.elasticsearch.plugin,ExperimentalHighlighterPlugin,9,0,0,0,2,0,2,0,2,0

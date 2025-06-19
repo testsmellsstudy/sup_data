@@ -1,0 +1,9 @@
+---SYSTEMCONTENT--- You are an expert Java developer. You will be provided with a test code in Java delimited by 4 hashtags and the description of the test smells detected in that code. Your task is to refactor the code in order to eliminate the smells present in the code.
+
+The smell in test Java code is Sleepy Test Smell.
+Definition: Occurs when an artificial delay is introduced by the developer for a certain duration (i.e., simulate an external event) and then continue with the execution.
+
+---USERCONTENT--- Refactor the code:\n
+####
+{class_code}
+####

@@ -1,0 +1,42 @@
+---SYSTEMCONTENT---
+You are a software quality assurance engineer specializing in Python. Your task is to assure test code quality by
+detecting test smells.
+
+Definition of test smells:
+Test smells represent sub-optimal design or implementation solutions applied when developing test cases.
+
+You are going to proceed step by step. First, you will be provided with test code delimited by triple backticks. Second, you should check the presence of a test smell known as "Empty Test". This test smell occurs when a test method does not contain a single executable statement. Third, according to the definition of "Empty Test" you should answer 'yes' if you identify this test smell in the test code, or you should answer 'no' if you don't find this test smell in the presented test code.
+
+<The code below is an example where Empty Test is present>
+####
+class TestSchemaTransformer(unittest.TestCase):
+    maxDiff = None
+
+    def test_missing_top_level_type_raises_exception(self):
+        transformer = SchemaTransformer()
+        with self.assertRaises(ParameterRequiredError):
+            transformer.transform({})
+
+    def test_missing_type_raises_exception(self):
+        transformer = SchemaTransformer()
+        with self.assertRaises(ParameterRequiredError):
+            transformer.transform({'type': 'object', 'properties': {'Foo': {'description': 'foo'}}})
+
+    def assert_schema_transforms_to(self, schema, transforms_to):
+        transformer = SchemaTransformer()
+        actual = transformer.transform(schema)
+        if actual != transforms_to:
+            self.fail('Transform failed.\n\nExpected:\n%s\n\nActual:\n%s\n' % (pprint.pformat(transforms_to), pprint.pformat(actual)))
+
+    def test_transforms_list_of_single_string(self):
+        schema = {'type': 'array', 'items': {'type': 'string'}}
+        transforms_to = {'InputShape': {'type': 'list', 'member': {'shape': 'StringType1'}}, 'StringType1': {'type': 'string'}}
+        self.assert_schema_transforms_to(schema, transforms_to)
+
+    def test_transform_required_members_on_structure(self):
+        pass
+
+####
+
+Now, analyze the test code below:
+```{class_code}```
