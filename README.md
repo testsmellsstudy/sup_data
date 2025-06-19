@@ -27,3 +27,8 @@ The `results` folder contains the outcomes of the refactoring process. Each proj
 - **Mitigated and introduced test smells**: Documentation of test smells that were resolved or introduced during the refactoring process [_(results/final refactoring results)_](./results/final%20refactoring%20results/).
 - **The projects refactored by each LLM**: Outcomes from refactoring performed by each LLM, enabling a comparison of their effectiveness. For [Python](./results/coverage/python/) and [Java](./results/coverage/java/).
 >The *final* results are those outcomes achieved with the best prompt template.
+
+### Source code
+
+The 'src' folder contains the scripts used to perform the study. 
+Some external resources we used to perform the study require individual installation and configuration. For this reason, if you intend to use the code provided, you will need to adapt it to work with your environment specific configurations
