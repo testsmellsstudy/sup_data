@@ -1,0 +1,11 @@
+Module,statements,missing,excluded,branches,partial,coverage
+spotipy/__init__.py,5,0,0,0,0,100%
+spotipy/cache_handler.py,98,46,0,8,1,52%
+spotipy/client.py,570,429,0,220,0,18%
+spotipy/exceptions.py,11,8,0,2,0,23%
+spotipy/oauth2.py,559,259,0,170,23,50%
+spotipy/util.py,45,25,0,22,2,36%
+tests/__init__.py,0,0,0,0,0,100%
+tests/unit/__init__.py,0,0,0,0,0,100%
+tests/unit/test_oauth.py,340,2,0,0,0,99%
+Total,1628,769,0,422,26,45%

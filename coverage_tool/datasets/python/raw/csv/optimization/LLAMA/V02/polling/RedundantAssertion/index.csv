@@ -1,0 +1,5 @@
+File,statements,missing,excluded,branches,partial,coverage
+polling.py,42,28,0,6,0,29%
+tests/__init__.py,0,0,0,0,0,100%
+tests/test_polling.py,34,30,0,24,0,7%
+Total,76,58,0,30,0,17%
